@@ -34,6 +34,10 @@ patient_meta_mod <- fread(paste0(
 # clean names
 impact_mod <- impact %>% clean_names() %>% remove_empty(which = "cols")
 
+# filter for somatic mutation
+impact_mod <- impact_mod %>% 
+  filter(mutation_status %in% c("SOMATIC", "UNKNOWN"))
+
 # keep relevant samples
 samples <- patient_meta_mod %>% 
   filter(impact_include == "yes") %>% 
