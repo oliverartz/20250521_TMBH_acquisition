@@ -15,7 +15,7 @@
 options(repos = "https://cran.rstudio.com")
 if (!require('pacman')) install.packages('pacman', dependencies = TRUE); library(pacman)
 
-p_load(tidyverse, data.table)
+p_load(tidyverse, data.table, here, janitor)
 
 # set parameters ---------------------------------------------------------------
 project_root <- here()
@@ -80,8 +80,14 @@ guardant_mod <- guardant_mod %>%
 guardant_mod <- guardant_mod %>% 
   mutate(mut_id_short = paste0(gene, "_", mut_aa))
 
-df_temp <- guardant_mod %>% 
-  filter(is.na(sample_status))
+# remove guardant samples we decided to exclude
+samples_to_exclude <- c(
+  "A0426213", # baseline sample from chemo patient - we have the chemo baseline sample instead
+  "A0326263" # On-treatment sample from former patient 5
+)
+
+guardant_mod <- guardant_mod %>% 
+  filter(!gh_request_id %in% samples_to_exclude)
 
 # export -----------------------------------------------------------------------
 write.table(guardant_mod, 
