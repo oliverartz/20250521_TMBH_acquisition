@@ -64,7 +64,8 @@ annotated_mutations_mod <- annotated_mutations_mod %>%
 
 # keep full data
 annotated_mutations_all <- annotated_mutations_mod %>%
-  mutate(patient_status_compared_to_baseline = paste0(patient_id, "_", status_compared_to_baseline_impact))
+  mutate(patient_status_compared_to_baseline = paste0(patient_id, "_", status_compared_to_baseline_impact),
+         tmbh_status_compared_to_baseline = paste0(acquired_tmbh, "_", status_compared_to_baseline_impact)) 
 
 # filter for progression samples for each patient
 annotated_mutations_progression <- annotated_mutations_all %>% 

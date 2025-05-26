@@ -7,8 +7,7 @@
 ##
 ## -----------------------------------------------------------------------------
 
-# clear work space -------------------------------------------------------------
-# annotate_patient_mutations function
+# annotate_patient_mutations function ------------------------------------------
 # Purpose:
 # This function annotates Guardant360 data with mutation information from the IMPACT and 
 # OMNI gene panels. It processes mutations for each patient in a given list of patient IDs, 
@@ -129,4 +128,58 @@ annotate_patient_mutations <- function(guardant_data, impact_data, gene_panel_li
   # apply function to all patients and combine results
   all_patient_results <- lapply(patient_ids, process_single_patient)
   do.call(rbind, all_patient_results)
+}
+
+# make MAF files for different grouping strategies -----------------------------
+make_maf <- function(sample, sub_dir, output_dir){
+  
+  # DEBUG ----
+  if (FALSE) {
+    sub_dir <- "gh_request_id"
+    sub_dir <- "tmbh_status_compared_to_baseline"
+    output_dir <- paste0(project_dir, "/data/processed/006_maf/")
+    sample <- "A0652291"
+    sample <- "Y_Baseline"
+  }
+  
+  # define columns to keep
+  columns_to_keep <- c("chromosome", "position", "reference_allele", "tumor_seq_allele2", "tumor_sample_barcode")
+  
+  # define sample id
+  sample_id <- sample
+  
+  # filter for SNV and Indels
+  test_maf <- annotated_mutations_progression %>% 
+    filter(variant_type %in% c("SNV", "Indel"))
+  
+  # filter for single sample 
+  test_maf <- test_maf[get(sub_dir) == sample_id]
+  
+  # filter for columns to keep
+  test_maf <- test_maf %>% 
+    select(all_of(columns_to_keep))
+  
+  # rename position column to fit VCF convention
+  test_maf <- test_maf %>% 
+    dplyr::rename(start_Position = position)
+  
+  # make output dir
+  output_dir <- paste0(output_dir, sub_dir, "/")
+  
+  # ensure directory exists
+  if (!dir.exists(output_dir)) {
+    dir.create(output_dir, recursive = TRUE)
+  }
+  
+  # export with sample_id in filename
+  output_file <- paste0(output_dir, sample_id, ".txt")
+
+  # if output file already exists, remove it
+  if (file.exists(output_file)) {
+    file.remove(output_file)
+  }
+cat("Deleting existing file:", sample, "\n")
+cat("Writing new file:", sample, "\n")
+
+  write.table(test_maf, file = output_file, sep = "\t", quote = FALSE, row.names = FALSE)
 }
