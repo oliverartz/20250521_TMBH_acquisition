@@ -43,7 +43,8 @@ cat("Preprocessing completed in", round(preprocess_duration, 2), "minutes\n")
 cat("Starting analysis...\n")
 analysis_start <- Sys.time()
 
-
+source(paste0(project_dir, "/analysis/scripts/007_plot_TMB.R"))
+source(paste0(project_dir, "/analysis/scripts/008_plot_MSI.R"))
 
 analysis_end <- Sys.time()
 analysis_duration <- as.numeric(difftime(analysis_end, analysis_start, units = "mins"))

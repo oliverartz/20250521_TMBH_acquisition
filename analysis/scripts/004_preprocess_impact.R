@@ -73,6 +73,15 @@ pt_num <- patient_meta_mod %>%
 idx <- match(impact_mod$tumor_sample_barcode, pt_num$tumor_sample_barcode)
 impact_mod$patient_id <- pt_num$patient_id[idx]
 
+# add acquired_high_tmb_y_yes_n_no
+idx <- match(impact_mod$patient_id, patient_meta_mod$patient_id)
+impact_mod$acquired_tmbh <- patient_meta_mod$acquired_tmbh[idx]
+
+impact_mod <- impact_mod %>% 
+  mutate(acquired_tmbh = case_when(acquired_tmbh == "Y" ~ "Yes",
+                                   acquired_tmbh == "N" ~ "No",
+                                   TRUE ~ "Not categorized"))
+
 # export -----------------------------------------------------------------------
 write.table(impact_mod, 
             file = paste0(project_root, "/",

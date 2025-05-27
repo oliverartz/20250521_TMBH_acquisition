@@ -8,7 +8,7 @@
 ## -----------------------------------------------------------------------------
 
 theme_jco <- function() {
-  theme_minimal(base_size = 10, base_family = "Arial") +
+  theme_minimal(base_size = 10) +
     theme(
       # add light axis lines and ticks
       axis.line = element_line(color = "black", size = 0.5),

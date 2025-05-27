@@ -22,10 +22,16 @@ project_root <- here()
 project_folder <- "20250521_TMBH_acquisition"
 
 # load data --------------------------------------------------------------------
+# patient key
 patient_key <- read_xlsx(paste0(
   project_root, "/",
   project_folder, 
   "/data/metadata/20250123_Full Cohort Data Table_for Oliver_20240123.xlsx"))
+
+# clinical IMPACT data
+impact_clin <- fread("/Users/artzo/Documents/8_asset_files/IMPACT/clinical/20250206_data_clinical_sample.txt",
+                     skip = 4)
+
 
 # wrangle ----------------------------------------------------------------------
 patient_key_mod <- patient_key %>% clean_names()
@@ -43,6 +49,10 @@ patient_key_mod <- patient_key_mod %>%
 patient_key_mod <- patient_key_mod %>% 
   mutate(guardant_id_baseline = case_when(guardant_id_baseline == "A0540760 (Guardant CDx ONLY)" ~ "A0540760",
                                           TRUE ~ guardant_id_baseline))
+
+# add IMPACT MSIScore
+idx <- match(patient_key_mod$impact_id_baseline, impact_clin$SAMPLE_ID)
+patient_key_mod$msi_score <- impact_clin$MSI_SCORE[idx]
 
 # export -----------------------------------------------------------------------
 write.table(patient_key_mod, 
