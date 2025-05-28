@@ -1,3 +1,6 @@
 # data from analysis
-data/*
+data/metadata/*
+data/processed/*.txt
+data/processed/006_maf/*
+data/raw/*
 NOTES.md
