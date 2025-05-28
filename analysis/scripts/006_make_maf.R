@@ -1,5 +1,6 @@
 ## -----------------------------------------------------------------------------
-## Purpose of script: Make MAF files for neoantigen prediction pipeline
+## Purpose of script: Make MAF files for neoantigen prediction pipeline and 
+##                    signature deconvolution
 ##
 ## Author: Oliver Artz
 ## Date Created: May 26, 2025

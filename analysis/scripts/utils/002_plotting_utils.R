@@ -22,7 +22,7 @@ theme_jco <- function() {
       # remove gridlines for a clean look
       panel.grid = element_blank(),
       plot.background = element_rect(fill = "white", color = NA),
-      panel.border = element_rect(color = "black", fill = NA, size = 0.5),
+      #panel.border = element_rect(color = "black", fill = NA, size = 0.5),
       
       # customize legend
       legend.title = element_text(size = 10, face = "bold"),
@@ -30,8 +30,7 @@ theme_jco <- function() {
       legend.background = element_blank(),
       
       # customize facets
-      strip.text = element_text(face = "bold",
-                                size = 10),
+      strip.text = element_text(face = "bold", size = 10),
       strip.background = element_rect(fill = "grey95", colour = "black", size = 0.5),
       
       # title adjustments

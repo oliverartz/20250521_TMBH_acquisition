@@ -45,6 +45,7 @@ analysis_start <- Sys.time()
 
 source(paste0(project_dir, "/analysis/scripts/007_plot_TMB.R"))
 source(paste0(project_dir, "/analysis/scripts/008_plot_MSI.R"))
+source(paste0(project_dir, "/analysis/scripts/009_plot_variant_types_fractions.R"))
 
 analysis_end <- Sys.time()
 analysis_duration <- as.numeric(difftime(analysis_end, analysis_start, units = "mins"))
