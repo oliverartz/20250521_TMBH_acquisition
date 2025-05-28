@@ -100,7 +100,7 @@ annotate_patient_mutations <- function(guardant_data, impact_data, gene_panel_li
     impact_patient_data <- impact_patient_data %>%
       dplyr::select(patient_id, gene, variant_type, chromosome, position, 
                     mut_aa, mut_id_short, status_compared_to_baseline_impact, 
-                    gene_in_omni, mut_nt) %>%
+                    gene_in_omni, mut_nt, acquired_tmbh) %>%
       bind_cols(as_tibble(matrix(NA, nrow = nrow(.), 
                                  ncol = length(missing_columns), 
                                  dimnames = list(NULL, missing_columns)))) %>%

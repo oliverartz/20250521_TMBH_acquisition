@@ -23,7 +23,7 @@ project_folder <- "20250521_TMBH_acquisition"
 
 # load data --------------------------------------------------------------------
 # IMPACT mutations (cutoff 2024-12-06)
-impact <- fread("/Users/artzo/Documents/8_asset_files/IMPACT/mutations/20241206_data_mutations_extended.txt.gz")
+impact <- fread("/Users/artzo/Documents/8_asset_files/IMPACT/mutations/20250430_data_mutations_extended.txt.gz")
 
 # patient meta data
 patient_meta_mod <- fread(paste0(

@@ -12,6 +12,7 @@ patient_id	acquired_high_tmb_y_yes_n_no	variant_type	frac
 12	No	Frameshift	0
 13	No	Frameshift	0
 14	Yes	Frameshift	0.2
+15	No	Frameshift	0.4
 16	No	Frameshift	0
 17	No	Frameshift	0.166666666666667
 18	No	Frameshift	0
@@ -35,6 +36,7 @@ patient_id	acquired_high_tmb_y_yes_n_no	variant_type	frac
 12	No	In Frame	0
 13	No	In Frame	0
 14	Yes	In Frame	0
+15	No	In Frame	0
 16	No	In Frame	0
 17	No	In Frame	0.166666666666667
 18	No	In Frame	0
@@ -58,6 +60,7 @@ patient_id	acquired_high_tmb_y_yes_n_no	variant_type	frac
 12	No	Missense	0.833333333333333
 13	No	Missense	1
 14	Yes	Missense	0.8
+15	No	Missense	0.6
 16	No	Missense	1
 17	No	Missense	0.5
 18	No	Missense	0.875
@@ -81,6 +84,7 @@ patient_id	acquired_high_tmb_y_yes_n_no	variant_type	frac
 12	No	Nonsense	0
 13	No	Nonsense	0
 14	Yes	Nonsense	0
+15	No	Nonsense	0
 16	No	Nonsense	0
 17	No	Nonsense	0.166666666666667
 18	No	Nonsense	0
@@ -104,6 +108,7 @@ patient_id	acquired_high_tmb_y_yes_n_no	variant_type	frac
 12	No	Other	0.166666666666667
 13	No	Other	0
 14	Yes	Other	0
+15	No	Other	0
 16	No	Other	0
 17	No	Other	0
 18	No	Other	0.125
