@@ -29,7 +29,7 @@ if [[ ! -f ${ref_fasta} ]]; then
 fi
 
 # define the directories to process
-directories=("patient_status_compared_to_baseline" "gh_request_id" "tmbh_status_compared_to_baseline")
+directories=("patient_status_compared_to_baseline" "gh_request_id" "tmbh_status_compared_to_baseline" "impact")
 
 # loop through each directory
 for dir in "${directories[@]}"; do
