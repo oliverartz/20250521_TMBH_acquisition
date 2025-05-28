@@ -29,9 +29,9 @@ output_dir <- paste0(project_dir, "/data/processed/006_maf/")
 # load data --------------------------------------------------------------------
 source(paste0(project_dir,"/analysis/scripts/utils/001_preprocess_utils.R"))
 
-annotated_mutations_progression <- fread(paste0(project_root, "/", 
-                                                project_folder, 
-                                                "/data/processed/005_annotated_mutations_progression.txt"))
+annotated_mutations_progression <- fread(paste0(project_dir, "/data/processed/005_annotated_mutations_progression.txt"))
+
+impact_mod <- fread(paste0(project_dir, "/data/processed/004_impact_mod.txt"))
 
 # wrangle ----------------------------------------------------------------------
 
@@ -39,6 +39,7 @@ annotated_mutations_progression <- fread(paste0(project_root, "/",
 # make output dir
 system(paste0("mkdir -p ", output_dir))
 
+# MAF files for OMNI data ------------------------------------------------------
 # function to generate MAF files for a given grouping column
 generate_maf_files <- function(group_column, data = annotated_mutations_progression, output_dir) {
   cat("Generating MAF files for:", group_column, "\n")
@@ -70,6 +71,12 @@ grouping_strategies <- c(
 
 # generate MAF files for all strategies
 results <- sapply(grouping_strategies, function(x) generate_maf_files(x, output_dir = output_dir))
+
+# MAF files for IMPACT data ----------------------------------------------------
+# get all impact samples
+all_impact_samples <- impact_mod$tumor_sample_barcode %>% unique()
+
+results_impact <- sapply(all_impact_samples, function(x) make_maf_impact(x, sub_dir = "impact", output_dir = output_dir))
 
 # plot -------------------------------------------------------------------------
 

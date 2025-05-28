@@ -29,21 +29,21 @@
 # the baseline IMPACT panel (e.g., Baseline, Acquired, Lost, Not on IMPACT, Not on OMNI).
 
 
-# DEBUG ----
-if (FALSE) {
-  guardant_data <- guardant_mod
-  impact_data <- impact_mod
-  gene_panel_list <- panel_gene_list
-  patient_ids <- unique(guardant_mod$patient_id)
-  patient_id_of_interest <- 14
-}
-
-# END DEBUG ----
-
 annotate_patient_mutations <- function(guardant_data, impact_data, gene_panel_list, patient_ids) {
   
   # define a helper function for a single patient
   process_single_patient <- function(patient_id_of_interest) {
+    
+    # DEBUG ----
+    if (FALSE) {
+      guardant_data <- guardant_mod
+      impact_data <- impact_mod
+      gene_panel_list <- panel_gene_list
+      patient_ids <- unique(guardant_mod$patient_id)
+      patient_id_of_interest <- 14
+    }
+    
+    #  END DEBUG ----
     
     # filter for the current patient in guardant_data
     guardant_patient_data <- guardant_data %>% filter(patient_id == patient_id_of_interest)
@@ -182,4 +182,49 @@ cat("Deleting existing file:", sample, "\n")
 cat("Writing new file:", sample, "\n")
 
   write.table(test_maf, file = output_file, sep = "\t", quote = FALSE, row.names = FALSE)
+}
+
+# make MAF files for IMPACT samples --------------------------------------------
+make_maf_impact <- function(sample, sub_dir, output_dir){
+  
+  # DEBUG ----
+  if (FALSE){
+    sample <- "P-0005858-T03-IM7"
+    sub_dir <- "impact"
+  }
+  
+  # filter for sample of interest
+  sample_impact <- impact_mod %>% 
+    filter(tumor_sample_barcode == sample)
+  
+  # filter for SNV and Indel
+  sample_impact <- sample_impact %>% 
+    filter(variant_type %in% c("SNP", "INS", "DEL"))
+  
+  # define relevant columns
+  columns_to_keep <- c("chromosome", "start_position", "reference_allele", "tumor_seq_allele2", "tumor_sample_barcode")
+  
+  # select relevant columns
+  sample_impact <- sample_impact %>% 
+    select(all_of(columns_to_keep)) %>% 
+    dplyr::rename(position = start_position)
+  
+  # make output dir
+  output_dir <- paste0(output_dir, sub_dir, "/")
+  
+  if (!dir.exists(output_dir)) {
+    dir.create(output_dir, recursive = TRUE)
+  }
+  
+  # export with sample_id in filename
+  output_file <- paste0(output_dir, sample, ".txt")
+  
+  # if output file already exists, remove it
+  if (file.exists(output_file)) {
+    file.remove(output_file)
+  }
+  cat("Deleting existing file:", sample, "\n")
+  cat("Writing new file:", sample, "\n")
+  
+  write.table(sample_impact, file = output_file, sep = "\t", quote = FALSE, row.names = FALSE)
 }
