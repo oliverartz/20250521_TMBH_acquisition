@@ -1,5 +1,8 @@
 ## -----------------------------------------------------------------------------
-## Purpose of script: Deconvolve SBS signatures for each IMPACT baseline sample
+## Purpose of script: Deconvolve SBS signatures for each baseline and progression
+##                    sample. This contains baseline and acquired mutations for
+##                    the progression samples. Guardant samples for patients who
+##                    acquire TMB-H. 
 ##
 ## Author: Oliver Artz
 ## Date Created: May 28, 2025
@@ -15,7 +18,7 @@
 options(repos = "https://cran.rstudio.com")
 if (!require('pacman')) install.packages('pacman', dependencies = TRUE); library(pacman)
 
-p_load(tidyverse, data.table, MutationalPatterns)
+p_load(tidyverse, data.table, MutationalPatterns, RColorBrewer)
 
 # set parameters ---------------------------------------------------------------
 project_root <- here::here()
@@ -35,13 +38,13 @@ sig_eti <- fread(paste0(project_dir, "/data/metadata/20230505_mut_signature_aeti
 patient_meta_mod <- fread(paste0(project_dir, "/data/processed/003_patient_meta_mod.txt"))
 
 # wrangle ----------------------------------------------------------------------
-# make key for patient and impact samples
-# impact_key <- patient_meta_mod %>% 
-#   filter(impact_include == "yes") %>% 
-#   select(patient_id, impact_baseline, impact_progression) %>% 
-#   pivot_longer(col = -patient_id,
-#                names_to = "sample_type",
-#                values_to = "tumor_sample_barcode")
+# make key for guardant samples for annotation
+guardant_sample_key <- patient_meta_mod %>% 
+  select(patient_id, acquired_tmbh, guardant_baseline, guardant_progression) %>% 
+  pivot_longer(col = -c(patient_id, acquired_tmbh),
+               names_to = "sample_type",
+               values_to = "gh_request_id")
+
 
 # analysis ---------------------------------------------------------------------
 # get COSMIC signatures
@@ -50,30 +53,14 @@ signatures <- get_known_signatures(muttype = "snv",
                                    genome = "GRCh37")
 
 # make mutational matrix
-vcf_files <- list.files(path = paste0(project_folder, "/data/processed/hpc/vcf/impact"),
+vcf_files <- list.files(path = paste0(project_folder, "/data/processed/hpc/vcf/gh_request_id"),
                         pattern = ".*vcf", 
                         full.names = TRUE)
-
-# filter for IMPACT baseline samples
-baseline_samples <- patient_meta_mod %>%
-  filter(impact_include == "yes", !is.na(impact_baseline)) %>%
-  pull(impact_baseline)
-
-# filter for IMPACT baseline samples
-vcf_files <- vcf_files[basename(vcf_files) %in% paste0(baseline_samples, ".vcf")]
-
-## QC: Which IMPACT sample is missing?
-# df_qc <- patient_meta_mod %>% 
-#   select(patient_id, impact_include, impact_baseline) %>% 
-#   mutate(vcf_loaded = impact_baseline %in% str_remove(basename(vcf_files), ".vcf")) %>% 
-#   filter(vcf_loaded == FALSE)
-
 
 # define sample names
 sample_names <- vcf_files %>% 
   basename() %>% 
   str_remove(".vcf")
-
 
 # load VCF to GRangesList with SBS only
 sbs_grl <- read_vcfs_as_granges(vcf_files, 
@@ -110,20 +97,7 @@ signatures_df <- signatures_df %>%
   mutate(rel_exposure = exposure / sum(exposure)) %>% 
   ungroup()
 
-# add patient id
-idx <- match(signatures_df$status, patient_meta_mod$impact_baseline)
-signatures_df$patient_id <- impact_key$patient_id[idx]
-
-# add acquired_tmbh info
-idx <- match(signatures_df$patient_id, patient_meta_mod$patient_id)
-signatures_df$acquired_tmbh <- patient_meta_mod$acquired_tmbh[idx]
-
-signatures_df <- signatures_df %>% 
-  mutate(acquired_tmbh = case_when(acquired_tmbh == "N" ~ "No",
-                                   acquired_tmbh == "Y" ~ "Yes",
-                                  TRUE ~ "Other"))
-
-# refactor "chemotherapy" for etiology
+# change "chemotherapy" for etiology
 signatures_df$category[signatures_df$category == "Chemo"] <- "Chemotherapy"
 
 # Cosine similarity ------------------------------------------------------------
@@ -142,52 +116,68 @@ n_exposures <- data.frame(sample = colnames(mut_mat),
   left_join(cosine_similarities,
             by = c("sample" = "status"))
 
-# add patient id and tmb-h
-idx <- match(n_exposures$sample, signatures_df$status)
-n_exposures$patient_id <- signatures_df$patient_id[idx]
-n_exposures$acquired_tmbh <- signatures_df$acquired_tmbh[idx]
+# add cosine to signatures_df
+signatures_df <- signatures_df %>% 
+  left_join(cosine_similarities,
+            by = "status") %>% 
+  mutate(cos_similiarity = round(cos_similiarity, 2))
+
+# remove the N group and refactor
+signatures_df <- signatures_df %>% 
+  mutate(category = case_when(category == "Chemo" ~ "Chemotherapy",
+                              SBS_signature == "SBS3" ~ "HRD",
+                              TRUE ~ category))
+
+# annotate samples with sample id and sample type
+idx <- match(signatures_df$status, guardant_sample_key$gh_request_id)
+signatures_df$sample_type <- guardant_sample_key$sample_type[idx]
+signatures_df$acquired_tmbh <- guardant_sample_key$acquired_tmbh[idx]
+signatures_df$patient_id <- guardant_sample_key$patient_id[idx]
+
+# filter for patients acquiring tmb-h
+signatures_df_tmbh <- signatures_df %>% 
+  filter(acquired_tmbh == "Y")
+
+# rename sample type
+signatures_df_tmbh <- signatures_df_tmbh %>% 
+  mutate(sample_type = case_when(sample_type == "guardant_baseline" ~ "Baseline",
+                                 sample_type == "guardant_progression" ~ "Progression",
+                                 TRUE ~ "Other"))
+
 
 # plot -------------------------------------------------------------------------
-# make df for plotting
-df_plot <- signatures_df %>% 
-  group_by(status, category, acquired_tmbh) %>% 
-  summarize(avg_cat_exp = mean(rel_exposure)) %>% 
-  ungroup()
-
-# plot
-df_plot %>% 
-  ggplot(aes(x = acquired_tmbh, y = avg_cat_exp, fill = acquired_tmbh)) +
-  stat_compare_means(label = "p.format",
-                     label.y = 0.17,
-                     size = 3) +
-  geom_boxplot(outlier.shape = NA, alpha = 0.5) +
-  geom_point(size = 3, shape = 21, alpha = 0.8) +
-  facet_wrap(~ category) +
+signatures_df_tmbh %>%
+  filter(rel_exposure > 0) %>% 
+  ggplot(aes(x = as.factor(patient_id), y = rel_exposure, fill = category)) +
+  geom_bar(stat = "identity", color = "black") +
+  geom_text(aes(label = SBS_signature), 
+            position = position_stack(vjust = 0.5), 
+            size = 3, 
+            color = "black",
+            alpha = 0.8) +
+  geom_text(aes(label = cos_similiarity, y = -0.02),
+            size = 3,
+            alpha = 0.8) +
   theme_jco() +
-  theme(panel.border = element_rect(color = "black", fill = NA),
-        legend.position = "none") +
-  scale_fill_jco() +
+  theme(panel.grid = element_blank(),
+        panel.border = element_rect(fill = NA, linewidth = 1),
+  ) +
+  scale_fill_brewer(palette = "Set3") +
   labs(
-    #title = "Mutational Signatures",
-    #subtitle = "Average relative exposure per patient",
-    x = "Acquired High TMB",
-    y = "Relative Exposure",
-    fill = "Acquired High TMB")
+    #title = "Relative exposure of SBS signatures",
+    x = "",
+    y = "Relative exposure",
+    fill = "Etiology") +
+  facet_grid(~ sample_type, scales = "free_x", space = "free_x")
 
 # export -----------------------------------------------------------------------
 # plot
-ggsave(paste0(project_folder, "/results/figures/010_SBS_per_sample.pdf"), height = 6, width = 8)
+ggsave(paste0(project_folder, "/results/figures/012_sbs_baseline_progression_samples.pdf"), height = 6, width = 9)
 
-# data
-signatures_df %>% 
+ # data
+signatures_df_tmbh %>% 
   fwrite(
-    paste0(project_folder, "/results/tables/010_SBS_per_sample_exposures.txt"), 
-    sep = "\t"
-  )
-
-cosine_similarities %>% 
-  fwrite(
-    paste0(project_folder, "/results/tables/010_SBS_per_sample_cosine.txt"), 
+    paste0(project_folder, "/results/tables/012_sbs_baseline_progression_samples.txt"), 
     sep = "\t"
   )
 

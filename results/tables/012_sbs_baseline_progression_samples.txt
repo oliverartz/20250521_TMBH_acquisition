@@ -1,0 +1,721 @@
+SBS_signature	aetiology	category	status	exposure	rel_exposure	cos_similiarity	sample_type	acquired_tmbh	patient_id
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0313742	0	0	0.68	Baseline	Y	25
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0315628	0	0	0.81	Progression	Y	21
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0412056	3.88215710911286	0.0713374375970351	0.82	Progression	Y	23
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0426944	9.04440089835804	0.192406385897441	0.9	Progression	Y	20
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0445186	0	0	0.91	Progression	Y	25
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0492577	0	0	0.85	Baseline	Y	14
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0555236	1.52137505874939	0.0526500470774756	0.81	Progression	Y	19
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0652916	0	0	0.61	Baseline	Y	22
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0692126	0	0	0.83	Progression	Y	14
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A0769194	0	0	0.84	Progression	Y	24
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A1053551	0	0	0.91	Progression	Y	26
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	A1096272	1.25009083377401	0.144469118697064	0.55	Progression	Y	22
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0313742	0	0	0.68	Baseline	Y	25
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0315628	3.48900157166049	0.0769904797031646	0.81	Progression	Y	21
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0412056	3.05328928595668	0.0561063933737614	0.82	Progression	Y	23
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0426944	2.20227554674764	0.046850187586991	0.9	Progression	Y	20
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0445186	0	0	0.91	Progression	Y	25
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0492577	3.79266897123305	0.105513946944557	0.85	Baseline	Y	14
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0555236	1.01491776884243	0.0351231394270693	0.81	Progression	Y	19
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0652916	0	0	0.61	Baseline	Y	22
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0692126	4.74631205214085	0.0671542479364108	0.83	Progression	Y	14
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A0769194	1.47834556066814	0.0419998733058249	0.84	Progression	Y	24
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A1053551	0	0	0.91	Progression	Y	26
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	A1096272	0	0	0.55	Progression	Y	22
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0313742	0	0	0.68	Baseline	Y	25
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0315628	0	0	0.81	Progression	Y	21
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0412056	0	0	0.82	Progression	Y	23
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0426944	0	0	0.9	Progression	Y	20
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0445186	0	0	0.91	Progression	Y	25
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0492577	0	0	0.85	Baseline	Y	14
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0555236	0	0	0.81	Progression	Y	19
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0652916	0	0	0.61	Baseline	Y	22
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0692126	0	0	0.83	Progression	Y	14
+SBS3	Defective homologous recombination DNA damage repair	HRD	A0769194	0	0	0.84	Progression	Y	24
+SBS3	Defective homologous recombination DNA damage repair	HRD	A1053551	39.7943870416262	0.325995845412649	0.91	Progression	Y	26
+SBS3	Defective homologous recombination DNA damage repair	HRD	A1096272	0	0	0.55	Progression	Y	22
+SBS4	Tobacco smoking	Tobacco	A0313742	0	0	0.68	Baseline	Y	25
+SBS4	Tobacco smoking	Tobacco	A0315628	0	0	0.81	Progression	Y	21
+SBS4	Tobacco smoking	Tobacco	A0412056	0	0	0.82	Progression	Y	23
+SBS4	Tobacco smoking	Tobacco	A0426944	0	0	0.9	Progression	Y	20
+SBS4	Tobacco smoking	Tobacco	A0445186	0	0	0.91	Progression	Y	25
+SBS4	Tobacco smoking	Tobacco	A0492577	0	0	0.85	Baseline	Y	14
+SBS4	Tobacco smoking	Tobacco	A0555236	0	0	0.81	Progression	Y	19
+SBS4	Tobacco smoking	Tobacco	A0652916	0	0	0.61	Baseline	Y	22
+SBS4	Tobacco smoking	Tobacco	A0692126	0	0	0.83	Progression	Y	14
+SBS4	Tobacco smoking	Tobacco	A0769194	0	0	0.84	Progression	Y	24
+SBS4	Tobacco smoking	Tobacco	A1053551	0	0	0.91	Progression	Y	26
+SBS4	Tobacco smoking	Tobacco	A1096272	0	0	0.55	Progression	Y	22
+SBS5	Unknown (Clock-like signature)	Clock	A0313742	0	0	0.68	Baseline	Y	25
+SBS5	Unknown (Clock-like signature)	Clock	A0315628	4.58767171685406	0.101234418771882	0.81	Progression	Y	21
+SBS5	Unknown (Clock-like signature)	Clock	A0412056	0	0	0.82	Progression	Y	23
+SBS5	Unknown (Clock-like signature)	Clock	A0426944	0	0	0.9	Progression	Y	20
+SBS5	Unknown (Clock-like signature)	Clock	A0445186	0	0	0.91	Progression	Y	25
+SBS5	Unknown (Clock-like signature)	Clock	A0492577	0	0	0.85	Baseline	Y	14
+SBS5	Unknown (Clock-like signature)	Clock	A0555236	0	0	0.81	Progression	Y	19
+SBS5	Unknown (Clock-like signature)	Clock	A0652916	0	0	0.61	Baseline	Y	22
+SBS5	Unknown (Clock-like signature)	Clock	A0692126	0	0	0.83	Progression	Y	14
+SBS5	Unknown (Clock-like signature)	Clock	A0769194	0	0	0.84	Progression	Y	24
+SBS5	Unknown (Clock-like signature)	Clock	A1053551	0	0	0.91	Progression	Y	26
+SBS5	Unknown (Clock-like signature)	Clock	A1096272	0	0	0.55	Progression	Y	22
+SBS6	Defective DNA mismatch repair	MMRd	A0313742	0	0	0.68	Baseline	Y	25
+SBS6	Defective DNA mismatch repair	MMRd	A0315628	11.1056058150733	0.24506320835213	0.81	Progression	Y	21
+SBS6	Defective DNA mismatch repair	MMRd	A0412056	0	0	0.82	Progression	Y	23
+SBS6	Defective DNA mismatch repair	MMRd	A0426944	0	0	0.9	Progression	Y	20
+SBS6	Defective DNA mismatch repair	MMRd	A0445186	0	0	0.91	Progression	Y	25
+SBS6	Defective DNA mismatch repair	MMRd	A0492577	0	0	0.85	Baseline	Y	14
+SBS6	Defective DNA mismatch repair	MMRd	A0555236	0	0	0.81	Progression	Y	19
+SBS6	Defective DNA mismatch repair	MMRd	A0652916	0	0	0.61	Baseline	Y	22
+SBS6	Defective DNA mismatch repair	MMRd	A0692126	8.31889875035712	0.117701782584522	0.83	Progression	Y	14
+SBS6	Defective DNA mismatch repair	MMRd	A0769194	0	0	0.84	Progression	Y	24
+SBS6	Defective DNA mismatch repair	MMRd	A1053551	0	0	0.91	Progression	Y	26
+SBS6	Defective DNA mismatch repair	MMRd	A1096272	0	0	0.55	Progression	Y	22
+SBS7a	Ultraviolet light exposure	UV	A0313742	0	0	0.68	Baseline	Y	25
+SBS7a	Ultraviolet light exposure	UV	A0315628	0	0	0.81	Progression	Y	21
+SBS7a	Ultraviolet light exposure	UV	A0412056	0	0	0.82	Progression	Y	23
+SBS7a	Ultraviolet light exposure	UV	A0426944	0	0	0.9	Progression	Y	20
+SBS7a	Ultraviolet light exposure	UV	A0445186	0	0	0.91	Progression	Y	25
+SBS7a	Ultraviolet light exposure	UV	A0492577	0	0	0.85	Baseline	Y	14
+SBS7a	Ultraviolet light exposure	UV	A0555236	0	0	0.81	Progression	Y	19
+SBS7a	Ultraviolet light exposure	UV	A0652916	0	0	0.61	Baseline	Y	22
+SBS7a	Ultraviolet light exposure	UV	A0692126	0	0	0.83	Progression	Y	14
+SBS7a	Ultraviolet light exposure	UV	A0769194	0	0	0.84	Progression	Y	24
+SBS7a	Ultraviolet light exposure	UV	A1053551	0	0	0.91	Progression	Y	26
+SBS7a	Ultraviolet light exposure	UV	A1096272	0	0	0.55	Progression	Y	22
+SBS7b	Ultraviolet light exposure	UV	A0313742	0	0	0.68	Baseline	Y	25
+SBS7b	Ultraviolet light exposure	UV	A0315628	0	0	0.81	Progression	Y	21
+SBS7b	Ultraviolet light exposure	UV	A0412056	0	0	0.82	Progression	Y	23
+SBS7b	Ultraviolet light exposure	UV	A0426944	0	0	0.9	Progression	Y	20
+SBS7b	Ultraviolet light exposure	UV	A0445186	0	0	0.91	Progression	Y	25
+SBS7b	Ultraviolet light exposure	UV	A0492577	0	0	0.85	Baseline	Y	14
+SBS7b	Ultraviolet light exposure	UV	A0555236	0	0	0.81	Progression	Y	19
+SBS7b	Ultraviolet light exposure	UV	A0652916	0	0	0.61	Baseline	Y	22
+SBS7b	Ultraviolet light exposure	UV	A0692126	0	0	0.83	Progression	Y	14
+SBS7b	Ultraviolet light exposure	UV	A0769194	0	0	0.84	Progression	Y	24
+SBS7b	Ultraviolet light exposure	UV	A1053551	0	0	0.91	Progression	Y	26
+SBS7b	Ultraviolet light exposure	UV	A1096272	0	0	0.55	Progression	Y	22
+SBS7c	Ultraviolet light exposure	UV	A0313742	0	0	0.68	Baseline	Y	25
+SBS7c	Ultraviolet light exposure	UV	A0315628	2.58541356967216	0.0570513445958115	0.81	Progression	Y	21
+SBS7c	Ultraviolet light exposure	UV	A0412056	0	0	0.82	Progression	Y	23
+SBS7c	Ultraviolet light exposure	UV	A0426944	0	0	0.9	Progression	Y	20
+SBS7c	Ultraviolet light exposure	UV	A0445186	0	0	0.91	Progression	Y	25
+SBS7c	Ultraviolet light exposure	UV	A0492577	2.89628707312547	0.080576154388347	0.85	Baseline	Y	14
+SBS7c	Ultraviolet light exposure	UV	A0555236	0	0	0.81	Progression	Y	19
+SBS7c	Ultraviolet light exposure	UV	A0652916	0	0	0.61	Baseline	Y	22
+SBS7c	Ultraviolet light exposure	UV	A0692126	0	0	0.83	Progression	Y	14
+SBS7c	Ultraviolet light exposure	UV	A0769194	1.85825397958198	0.052793090999113	0.84	Progression	Y	24
+SBS7c	Ultraviolet light exposure	UV	A1053551	0	0	0.91	Progression	Y	26
+SBS7c	Ultraviolet light exposure	UV	A1096272	0	0	0.55	Progression	Y	22
+SBS7d	Ultraviolet light exposure	UV	A0313742	0	0	0.68	Baseline	Y	25
+SBS7d	Ultraviolet light exposure	UV	A0315628	0	0	0.81	Progression	Y	21
+SBS7d	Ultraviolet light exposure	UV	A0412056	0	0	0.82	Progression	Y	23
+SBS7d	Ultraviolet light exposure	UV	A0426944	0	0	0.9	Progression	Y	20
+SBS7d	Ultraviolet light exposure	UV	A0445186	0	0	0.91	Progression	Y	25
+SBS7d	Ultraviolet light exposure	UV	A0492577	0	0	0.85	Baseline	Y	14
+SBS7d	Ultraviolet light exposure	UV	A0555236	0	0	0.81	Progression	Y	19
+SBS7d	Ultraviolet light exposure	UV	A0652916	0	0	0.61	Baseline	Y	22
+SBS7d	Ultraviolet light exposure	UV	A0692126	0	0	0.83	Progression	Y	14
+SBS7d	Ultraviolet light exposure	UV	A0769194	1.53430310179571	0.0435896299232162	0.84	Progression	Y	24
+SBS7d	Ultraviolet light exposure	UV	A1053551	0	0	0.91	Progression	Y	26
+SBS7d	Ultraviolet light exposure	UV	A1096272	0	0	0.55	Progression	Y	22
+SBS8	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS8	Unknown	Unknown	A0315628	3.84848557341568	0.0849230773739571	0.81	Progression	Y	21
+SBS8	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS8	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS8	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS8	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS8	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS8	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS8	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS8	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS8	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS8	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0313742	0	0	0.68	Baseline	Y	25
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0315628	0	0	0.81	Progression	Y	21
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0412056	0	0	0.82	Progression	Y	23
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0426944	0	0	0.9	Progression	Y	20
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0445186	0	0	0.91	Progression	Y	25
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0492577	0	0	0.85	Baseline	Y	14
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0555236	0	0	0.81	Progression	Y	19
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0652916	0	0	0.61	Baseline	Y	22
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0692126	0	0	0.83	Progression	Y	14
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A0769194	0	0	0.84	Progression	Y	24
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A1053551	0	0	0.91	Progression	Y	26
+SBS9	Polymerase eta somatic hypermutation activity	POLH	A1096272	0	0	0.55	Progression	Y	22
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0313742	0	0	0.68	Baseline	Y	25
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0315628	0	0	0.81	Progression	Y	21
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0412056	0	0	0.82	Progression	Y	23
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0426944	0	0	0.9	Progression	Y	20
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0445186	0	0	0.91	Progression	Y	25
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0492577	0	0	0.85	Baseline	Y	14
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0555236	0	0	0.81	Progression	Y	19
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0652916	0	0	0.61	Baseline	Y	22
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0692126	0	0	0.83	Progression	Y	14
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A0769194	0	0	0.84	Progression	Y	24
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A1053551	0	0	0.91	Progression	Y	26
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	A1096272	0	0	0.55	Progression	Y	22
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0313742	0	0	0.68	Baseline	Y	25
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0315628	0	0	0.81	Progression	Y	21
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0412056	6.32505676377193	0.116227481140348	0.82	Progression	Y	23
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0426944	0	0	0.9	Progression	Y	20
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0445186	0	0	0.91	Progression	Y	25
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0492577	0	0	0.85	Baseline	Y	14
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0555236	0	0	0.81	Progression	Y	19
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0652916	0	0	0.61	Baseline	Y	22
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0692126	0	0	0.83	Progression	Y	14
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A0769194	0	0	0.84	Progression	Y	24
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A1053551	0	0	0.91	Progression	Y	26
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	A1096272	0	0	0.55	Progression	Y	22
+SBS10c	Defective POLD1 proofreading	POLD1	A0313742	0	0	0.68	Baseline	Y	25
+SBS10c	Defective POLD1 proofreading	POLD1	A0315628	0	0	0.81	Progression	Y	21
+SBS10c	Defective POLD1 proofreading	POLD1	A0412056	0	0	0.82	Progression	Y	23
+SBS10c	Defective POLD1 proofreading	POLD1	A0426944	0	0	0.9	Progression	Y	20
+SBS10c	Defective POLD1 proofreading	POLD1	A0445186	0	0	0.91	Progression	Y	25
+SBS10c	Defective POLD1 proofreading	POLD1	A0492577	0	0	0.85	Baseline	Y	14
+SBS10c	Defective POLD1 proofreading	POLD1	A0555236	0	0	0.81	Progression	Y	19
+SBS10c	Defective POLD1 proofreading	POLD1	A0652916	0	0	0.61	Baseline	Y	22
+SBS10c	Defective POLD1 proofreading	POLD1	A0692126	0	0	0.83	Progression	Y	14
+SBS10c	Defective POLD1 proofreading	POLD1	A0769194	0	0	0.84	Progression	Y	24
+SBS10c	Defective POLD1 proofreading	POLD1	A1053551	0	0	0.91	Progression	Y	26
+SBS10c	Defective POLD1 proofreading	POLD1	A1096272	0	0	0.55	Progression	Y	22
+SBS10d	Defective POLD1 proofreading	POLD1	A0313742	0	0	0.68	Baseline	Y	25
+SBS10d	Defective POLD1 proofreading	POLD1	A0315628	0	0	0.81	Progression	Y	21
+SBS10d	Defective POLD1 proofreading	POLD1	A0412056	0	0	0.82	Progression	Y	23
+SBS10d	Defective POLD1 proofreading	POLD1	A0426944	0	0	0.9	Progression	Y	20
+SBS10d	Defective POLD1 proofreading	POLD1	A0445186	0	0	0.91	Progression	Y	25
+SBS10d	Defective POLD1 proofreading	POLD1	A0492577	0	0	0.85	Baseline	Y	14
+SBS10d	Defective POLD1 proofreading	POLD1	A0555236	0	0	0.81	Progression	Y	19
+SBS10d	Defective POLD1 proofreading	POLD1	A0652916	0	0	0.61	Baseline	Y	22
+SBS10d	Defective POLD1 proofreading	POLD1	A0692126	0	0	0.83	Progression	Y	14
+SBS10d	Defective POLD1 proofreading	POLD1	A0769194	0	0	0.84	Progression	Y	24
+SBS10d	Defective POLD1 proofreading	POLD1	A1053551	0	0	0.91	Progression	Y	26
+SBS10d	Defective POLD1 proofreading	POLD1	A1096272	0	0	0.55	Progression	Y	22
+SBS11	Temozolomide treatment	TMZ	A0313742	0	0	0.68	Baseline	Y	25
+SBS11	Temozolomide treatment	TMZ	A0315628	0	0	0.81	Progression	Y	21
+SBS11	Temozolomide treatment	TMZ	A0412056	0	0	0.82	Progression	Y	23
+SBS11	Temozolomide treatment	TMZ	A0426944	0	0	0.9	Progression	Y	20
+SBS11	Temozolomide treatment	TMZ	A0445186	0	0	0.91	Progression	Y	25
+SBS11	Temozolomide treatment	TMZ	A0492577	0	0	0.85	Baseline	Y	14
+SBS11	Temozolomide treatment	TMZ	A0555236	0	0	0.81	Progression	Y	19
+SBS11	Temozolomide treatment	TMZ	A0652916	0	0	0.61	Baseline	Y	22
+SBS11	Temozolomide treatment	TMZ	A0692126	0	0	0.83	Progression	Y	14
+SBS11	Temozolomide treatment	TMZ	A0769194	0	0	0.84	Progression	Y	24
+SBS11	Temozolomide treatment	TMZ	A1053551	0	0	0.91	Progression	Y	26
+SBS11	Temozolomide treatment	TMZ	A1096272	0	0	0.55	Progression	Y	22
+SBS12	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS12	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS12	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS12	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS12	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS12	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS12	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS12	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS12	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS12	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS12	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS12	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0313742	1.09909869549167	0.0610754659600006	0.68	Baseline	Y	25
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0315628	0	0	0.81	Progression	Y	21
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0412056	0	0	0.82	Progression	Y	23
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0426944	0	0	0.9	Progression	Y	20
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0445186	0	0	0.91	Progression	Y	25
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0492577	5.25206514475732	0.146115078124816	0.85	Baseline	Y	14
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0555236	0	0	0.81	Progression	Y	19
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0652916	1.12259421111429	0.0875675298451282	0.61	Baseline	Y	22
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0692126	4.4801668491819	0.0633886335498618	0.83	Progression	Y	14
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A0769194	0	0	0.84	Progression	Y	24
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A1053551	0	0	0.91	Progression	Y	26
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	A1096272	1.22277675302491	0.141312515138962	0.55	Progression	Y	22
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0313742	0	0	0.68	Baseline	Y	25
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0315628	0	0	0.81	Progression	Y	21
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0412056	0	0	0.82	Progression	Y	23
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0426944	0	0	0.9	Progression	Y	20
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0445186	0	0	0.91	Progression	Y	25
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0492577	0	0	0.85	Baseline	Y	14
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0555236	0	0	0.81	Progression	Y	19
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0652916	0	0	0.61	Baseline	Y	22
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0692126	0	0	0.83	Progression	Y	14
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A0769194	0	0	0.84	Progression	Y	24
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A1053551	0	0	0.91	Progression	Y	26
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	A1096272	0	0	0.55	Progression	Y	22
+SBS15	Defective DNA mismatch repair	MMRd	A0313742	5.64353501968639	0.313603803191431	0.68	Baseline	Y	25
+SBS15	Defective DNA mismatch repair	MMRd	A0315628	0	0	0.81	Progression	Y	21
+SBS15	Defective DNA mismatch repair	MMRd	A0412056	4.00416386242066	0.0735793997087904	0.82	Progression	Y	23
+SBS15	Defective DNA mismatch repair	MMRd	A0426944	9.66012811482325	0.20550508085249	0.9	Progression	Y	20
+SBS15	Defective DNA mismatch repair	MMRd	A0445186	0	0	0.91	Progression	Y	25
+SBS15	Defective DNA mismatch repair	MMRd	A0492577	3.71661332530275	0.103398040850355	0.85	Baseline	Y	14
+SBS15	Defective DNA mismatch repair	MMRd	A0555236	3.43424477676461	0.118848503616764	0.81	Progression	Y	19
+SBS15	Defective DNA mismatch repair	MMRd	A0652916	0	0	0.61	Baseline	Y	22
+SBS15	Defective DNA mismatch repair	MMRd	A0692126	0	0	0.83	Progression	Y	14
+SBS15	Defective DNA mismatch repair	MMRd	A0769194	8.26709687521705	0.23486864681974	0.84	Progression	Y	24
+SBS15	Defective DNA mismatch repair	MMRd	A1053551	0	0	0.91	Progression	Y	26
+SBS15	Defective DNA mismatch repair	MMRd	A1096272	0	0	0.55	Progression	Y	22
+SBS16	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS16	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS16	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS16	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS16	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS16	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS16	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS16	Unknown	Unknown	A0652916	1.54474525675746	0.12049725986023	0.61	Baseline	Y	22
+SBS16	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS16	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS16	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS16	Unknown	Unknown	A1096272	2.01992496530937	0.233436460526194	0.55	Progression	Y	22
+SBS17a	Unknown	ROS	A0313742	0	0	0.68	Baseline	Y	25
+SBS17a	Unknown	ROS	A0315628	0	0	0.81	Progression	Y	21
+SBS17a	Unknown	ROS	A0412056	0	0	0.82	Progression	Y	23
+SBS17a	Unknown	ROS	A0426944	0	0	0.9	Progression	Y	20
+SBS17a	Unknown	ROS	A0445186	22.2938541577087	0.154392743395254	0.91	Progression	Y	25
+SBS17a	Unknown	ROS	A0492577	1.68236220085337	0.0468041575335953	0.85	Baseline	Y	14
+SBS17a	Unknown	ROS	A0555236	5.42710778042926	0.187815278350243	0.81	Progression	Y	19
+SBS17a	Unknown	ROS	A0652916	0	0	0.61	Baseline	Y	22
+SBS17a	Unknown	ROS	A0692126	5.45079747122239	0.0771218160147146	0.83	Progression	Y	14
+SBS17a	Unknown	ROS	A0769194	4.99523088144528	0.141914765894942	0.84	Progression	Y	24
+SBS17a	Unknown	ROS	A1053551	28.7975812527663	0.235909949725195	0.91	Progression	Y	26
+SBS17a	Unknown	ROS	A1096272	0	0	0.55	Progression	Y	22
+SBS17b	Unknown	ROS	A0313742	0	0	0.68	Baseline	Y	25
+SBS17b	Unknown	ROS	A0315628	3.31314980035857	0.0731100250942712	0.81	Progression	Y	21
+SBS17b	Unknown	ROS	A0412056	0	0	0.82	Progression	Y	23
+SBS17b	Unknown	ROS	A0426944	12.2756060280167	0.261145543756284	0.9	Progression	Y	20
+SBS17b	Unknown	ROS	A0445186	79.293726114744	0.549136807941939	0.91	Progression	Y	25
+SBS17b	Unknown	ROS	A0492577	6.62384994224839	0.184278817022061	0.85	Baseline	Y	14
+SBS17b	Unknown	ROS	A0555236	7.30016787800698	0.252636048054115	0.81	Progression	Y	19
+SBS17b	Unknown	ROS	A0652916	0	0	0.61	Baseline	Y	22
+SBS17b	Unknown	ROS	A0692126	7.83197260569929	0.110812400115385	0.83	Progression	Y	14
+SBS17b	Unknown	ROS	A0769194	6.42975650626653	0.182669712572782	0.84	Progression	Y	24
+SBS17b	Unknown	ROS	A1053551	53.4782592916496	0.438094204862156	0.91	Progression	Y	26
+SBS17b	Unknown	ROS	A1096272	0	0	0.55	Progression	Y	22
+SBS18	Damage by reactive oxygen species	ROS	A0313742	0	0	0.68	Baseline	Y	25
+SBS18	Damage by reactive oxygen species	ROS	A0315628	0	0	0.81	Progression	Y	21
+SBS18	Damage by reactive oxygen species	ROS	A0412056	0	0	0.82	Progression	Y	23
+SBS18	Damage by reactive oxygen species	ROS	A0426944	0	0	0.9	Progression	Y	20
+SBS18	Damage by reactive oxygen species	ROS	A0445186	0	0	0.91	Progression	Y	25
+SBS18	Damage by reactive oxygen species	ROS	A0492577	0	0	0.85	Baseline	Y	14
+SBS18	Damage by reactive oxygen species	ROS	A0555236	0	0	0.81	Progression	Y	19
+SBS18	Damage by reactive oxygen species	ROS	A0652916	0	0	0.61	Baseline	Y	22
+SBS18	Damage by reactive oxygen species	ROS	A0692126	0	0	0.83	Progression	Y	14
+SBS18	Damage by reactive oxygen species	ROS	A0769194	0	0	0.84	Progression	Y	24
+SBS18	Damage by reactive oxygen species	ROS	A1053551	0	0	0.91	Progression	Y	26
+SBS18	Damage by reactive oxygen species	ROS	A1096272	0	0	0.55	Progression	Y	22
+SBS19	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS19	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS19	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS19	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS19	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS19	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS19	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS19	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS19	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS19	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS19	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS19	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0313742	0	0	0.68	Baseline	Y	25
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0315628	0	0	0.81	Progression	Y	21
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0412056	3.91273991071301	0.0718994186398868	0.82	Progression	Y	23
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0426944	2.90504396964531	0.0618005567592747	0.9	Progression	Y	20
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0445186	0	0	0.91	Progression	Y	25
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0492577	5.62998687633539	0.15662904964128	0.85	Baseline	Y	14
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0555236	0	0	0.81	Progression	Y	19
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0652916	0	0	0.61	Baseline	Y	22
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0692126	0	0	0.83	Progression	Y	14
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A0769194	0	0	0.84	Progression	Y	24
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A1053551	0	0	0.91	Progression	Y	26
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	A1096272	0	0	0.55	Progression	Y	22
+SBS21	Defective DNA mismatch repair	MMRd	A0313742	0	0	0.68	Baseline	Y	25
+SBS21	Defective DNA mismatch repair	MMRd	A0315628	0	0	0.81	Progression	Y	21
+SBS21	Defective DNA mismatch repair	MMRd	A0412056	0	0	0.82	Progression	Y	23
+SBS21	Defective DNA mismatch repair	MMRd	A0426944	0	0	0.9	Progression	Y	20
+SBS21	Defective DNA mismatch repair	MMRd	A0445186	0	0	0.91	Progression	Y	25
+SBS21	Defective DNA mismatch repair	MMRd	A0492577	0	0	0.85	Baseline	Y	14
+SBS21	Defective DNA mismatch repair	MMRd	A0555236	0	0	0.81	Progression	Y	19
+SBS21	Defective DNA mismatch repair	MMRd	A0652916	0	0	0.61	Baseline	Y	22
+SBS21	Defective DNA mismatch repair	MMRd	A0692126	0	0	0.83	Progression	Y	14
+SBS21	Defective DNA mismatch repair	MMRd	A0769194	0	0	0.84	Progression	Y	24
+SBS21	Defective DNA mismatch repair	MMRd	A1053551	0	0	0.91	Progression	Y	26
+SBS21	Defective DNA mismatch repair	MMRd	A1096272	0	0	0.55	Progression	Y	22
+SBS22	Aristolochic acid exposure	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS22	Aristolochic acid exposure	Chemotherapy	A0315628	0	0	0.81	Progression	Y	21
+SBS22	Aristolochic acid exposure	Chemotherapy	A0412056	4.05917617171398	0.0745902905797623	0.82	Progression	Y	23
+SBS22	Aristolochic acid exposure	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS22	Aristolochic acid exposure	Chemotherapy	A0445186	0	0	0.91	Progression	Y	25
+SBS22	Aristolochic acid exposure	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS22	Aristolochic acid exposure	Chemotherapy	A0555236	0	0	0.81	Progression	Y	19
+SBS22	Aristolochic acid exposure	Chemotherapy	A0652916	0	0	0.61	Baseline	Y	22
+SBS22	Aristolochic acid exposure	Chemotherapy	A0692126	0	0	0.83	Progression	Y	14
+SBS22	Aristolochic acid exposure	Chemotherapy	A0769194	0	0	0.84	Progression	Y	24
+SBS22	Aristolochic acid exposure	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS22	Aristolochic acid exposure	Chemotherapy	A1096272	0	0	0.55	Progression	Y	22
+SBS23	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS23	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS23	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS23	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS23	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS23	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS23	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS23	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS23	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS23	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS23	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS23	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS24	Aflatoxin exposure	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS24	Aflatoxin exposure	Chemotherapy	A0315628	0	0	0.81	Progression	Y	21
+SBS24	Aflatoxin exposure	Chemotherapy	A0412056	0	0	0.82	Progression	Y	23
+SBS24	Aflatoxin exposure	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS24	Aflatoxin exposure	Chemotherapy	A0445186	0	0	0.91	Progression	Y	25
+SBS24	Aflatoxin exposure	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS24	Aflatoxin exposure	Chemotherapy	A0555236	0	0	0.81	Progression	Y	19
+SBS24	Aflatoxin exposure	Chemotherapy	A0652916	0	0	0.61	Baseline	Y	22
+SBS24	Aflatoxin exposure	Chemotherapy	A0692126	9.33828813255249	0.13212483917323	0.83	Progression	Y	14
+SBS24	Aflatoxin exposure	Chemotherapy	A0769194	3.25004616329833	0.0923339784203903	0.84	Progression	Y	24
+SBS24	Aflatoxin exposure	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS24	Aflatoxin exposure	Chemotherapy	A1096272	0	0	0.55	Progression	Y	22
+SBS25	Chemotherapy treatment	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS25	Chemotherapy treatment	Chemotherapy	A0315628	0	0	0.81	Progression	Y	21
+SBS25	Chemotherapy treatment	Chemotherapy	A0412056	0	0	0.82	Progression	Y	23
+SBS25	Chemotherapy treatment	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS25	Chemotherapy treatment	Chemotherapy	A0445186	42.8094533409413	0.296470448662807	0.91	Progression	Y	25
+SBS25	Chemotherapy treatment	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS25	Chemotherapy treatment	Chemotherapy	A0555236	0	0	0.81	Progression	Y	19
+SBS25	Chemotherapy treatment	Chemotherapy	A0652916	0	0	0.61	Baseline	Y	22
+SBS25	Chemotherapy treatment	Chemotherapy	A0692126	9.19413529371254	0.130085260786084	0.83	Progression	Y	14
+SBS25	Chemotherapy treatment	Chemotherapy	A0769194	2.79717882160429	0.0794679939837753	0.84	Progression	Y	24
+SBS25	Chemotherapy treatment	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS25	Chemotherapy treatment	Chemotherapy	A1096272	0	0	0.55	Progression	Y	22
+SBS26	Defective DNA mismatch repair	MMRd	A0313742	0	0	0.68	Baseline	Y	25
+SBS26	Defective DNA mismatch repair	MMRd	A0315628	0	0	0.81	Progression	Y	21
+SBS26	Defective DNA mismatch repair	MMRd	A0412056	6.02167451732874	0.110652613491925	0.82	Progression	Y	23
+SBS26	Defective DNA mismatch repair	MMRd	A0426944	0	0	0.9	Progression	Y	20
+SBS26	Defective DNA mismatch repair	MMRd	A0445186	0	0	0.91	Progression	Y	25
+SBS26	Defective DNA mismatch repair	MMRd	A0492577	3.31659155363272	0.0922692351695002	0.85	Baseline	Y	14
+SBS26	Defective DNA mismatch repair	MMRd	A0555236	0	0	0.81	Progression	Y	19
+SBS26	Defective DNA mismatch repair	MMRd	A0652916	0	0	0.61	Baseline	Y	22
+SBS26	Defective DNA mismatch repair	MMRd	A0692126	0	0	0.83	Progression	Y	14
+SBS26	Defective DNA mismatch repair	MMRd	A0769194	0	0	0.84	Progression	Y	24
+SBS26	Defective DNA mismatch repair	MMRd	A1053551	0	0	0.91	Progression	Y	26
+SBS26	Defective DNA mismatch repair	MMRd	A1096272	0	0	0.55	Progression	Y	22
+SBS28	Unknown	POLE	A0313742	0	0	0.68	Baseline	Y	25
+SBS28	Unknown	POLE	A0315628	0	0	0.81	Progression	Y	21
+SBS28	Unknown	POLE	A0412056	0	0	0.82	Progression	Y	23
+SBS28	Unknown	POLE	A0426944	0	0	0.9	Progression	Y	20
+SBS28	Unknown	POLE	A0445186	0	0	0.91	Progression	Y	25
+SBS28	Unknown	POLE	A0492577	0	0	0.85	Baseline	Y	14
+SBS28	Unknown	POLE	A0555236	0	0	0.81	Progression	Y	19
+SBS28	Unknown	POLE	A0652916	0	0	0.61	Baseline	Y	22
+SBS28	Unknown	POLE	A0692126	0	0	0.83	Progression	Y	14
+SBS28	Unknown	POLE	A0769194	0	0	0.84	Progression	Y	24
+SBS28	Unknown	POLE	A1053551	0	0	0.91	Progression	Y	26
+SBS28	Unknown	POLE	A1096272	0	0	0.55	Progression	Y	22
+SBS29	Tobacco chewing	Tobacco	A0313742	0	0	0.68	Baseline	Y	25
+SBS29	Tobacco chewing	Tobacco	A0315628	0	0	0.81	Progression	Y	21
+SBS29	Tobacco chewing	Tobacco	A0412056	2.70361853149975	0.0496809409965186	0.82	Progression	Y	23
+SBS29	Tobacco chewing	Tobacco	A0426944	2.46268053564994	0.0523899224292901	0.9	Progression	Y	20
+SBS29	Tobacco chewing	Tobacco	A0445186	0	0	0.91	Progression	Y	25
+SBS29	Tobacco chewing	Tobacco	A0492577	3.03429199551417	0.0844155203254892	0.85	Baseline	Y	14
+SBS29	Tobacco chewing	Tobacco	A0555236	0	0	0.81	Progression	Y	19
+SBS29	Tobacco chewing	Tobacco	A0652916	0	0	0.61	Baseline	Y	22
+SBS29	Tobacco chewing	Tobacco	A0692126	0	0	0.83	Progression	Y	14
+SBS29	Tobacco chewing	Tobacco	A0769194	0	0	0.84	Progression	Y	24
+SBS29	Tobacco chewing	Tobacco	A1053551	0	0	0.91	Progression	Y	26
+SBS29	Tobacco chewing	Tobacco	A1096272	0	0	0.55	Progression	Y	22
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0313742	0	0	0.68	Baseline	Y	25
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0315628	0	0	0.81	Progression	Y	21
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0412056	0	0	0.82	Progression	Y	23
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0426944	0	0	0.9	Progression	Y	20
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0445186	0	0	0.91	Progression	Y	25
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0492577	0	0	0.85	Baseline	Y	14
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0555236	0	0	0.81	Progression	Y	19
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0652916	0	0	0.61	Baseline	Y	22
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0692126	0	0	0.83	Progression	Y	14
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A0769194	0	0	0.84	Progression	Y	24
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A1053551	0	0	0.91	Progression	Y	26
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	A1096272	0	0	0.55	Progression	Y	22
+SBS31	Platinum chemotherapy treatment	Platinum	A0313742	8.33131052891885	0.46295994590691	0.68	Baseline	Y	25
+SBS31	Platinum chemotherapy treatment	Platinum	A0315628	0	0	0.81	Progression	Y	21
+SBS31	Platinum chemotherapy treatment	Platinum	A0412056	0	0	0.82	Progression	Y	23
+SBS31	Platinum chemotherapy treatment	Platinum	A0426944	0	0	0.9	Progression	Y	20
+SBS31	Platinum chemotherapy treatment	Platinum	A0445186	0	0	0.91	Progression	Y	25
+SBS31	Platinum chemotherapy treatment	Platinum	A0492577	0	0	0.85	Baseline	Y	14
+SBS31	Platinum chemotherapy treatment	Platinum	A0555236	0	0	0.81	Progression	Y	19
+SBS31	Platinum chemotherapy treatment	Platinum	A0652916	0	0	0.61	Baseline	Y	22
+SBS31	Platinum chemotherapy treatment	Platinum	A0692126	8.48948568480515	0.120115369631642	0.83	Progression	Y	14
+SBS31	Platinum chemotherapy treatment	Platinum	A0769194	0	0	0.84	Progression	Y	24
+SBS31	Platinum chemotherapy treatment	Platinum	A1053551	0	0	0.91	Progression	Y	26
+SBS31	Platinum chemotherapy treatment	Platinum	A1096272	0	0	0.55	Progression	Y	22
+SBS32	Azathioprine treatment	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS32	Azathioprine treatment	Chemotherapy	A0315628	0	0	0.81	Progression	Y	21
+SBS32	Azathioprine treatment	Chemotherapy	A0412056	0	0	0.82	Progression	Y	23
+SBS32	Azathioprine treatment	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS32	Azathioprine treatment	Chemotherapy	A0445186	0	0	0.91	Progression	Y	25
+SBS32	Azathioprine treatment	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS32	Azathioprine treatment	Chemotherapy	A0555236	0	0	0.81	Progression	Y	19
+SBS32	Azathioprine treatment	Chemotherapy	A0652916	0	0	0.61	Baseline	Y	22
+SBS32	Azathioprine treatment	Chemotherapy	A0692126	0	0	0.83	Progression	Y	14
+SBS32	Azathioprine treatment	Chemotherapy	A0769194	0	0	0.84	Progression	Y	24
+SBS32	Azathioprine treatment	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS32	Azathioprine treatment	Chemotherapy	A1096272	1.23645636717734	0.142893425699478	0.55	Progression	Y	22
+SBS33	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS33	Unknown	Unknown	A0315628	2.03486450983944	0.0449025864637036	0.81	Progression	Y	21
+SBS33	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS33	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS33	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS33	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS33	Unknown	Unknown	A0555236	1.46175452239066	0.0505867662132213	0.81	Progression	Y	19
+SBS33	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS33	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS33	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS33	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS33	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS34	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS34	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS34	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS34	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS34	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS34	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS34	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS34	Unknown	Unknown	A0652916	1.14714370580306	0.0894825037400209	0.61	Baseline	Y	22
+SBS34	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS34	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS34	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS34	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS35	Platinum chemotherapy treatment	Platinum	A0313742	0	0	0.68	Baseline	Y	25
+SBS35	Platinum chemotherapy treatment	Platinum	A0315628	0	0	0.81	Progression	Y	21
+SBS35	Platinum chemotherapy treatment	Platinum	A0412056	0	0	0.82	Progression	Y	23
+SBS35	Platinum chemotherapy treatment	Platinum	A0426944	5.49276071963776	0.116850441565101	0.9	Progression	Y	20
+SBS35	Platinum chemotherapy treatment	Platinum	A0445186	0	0	0.91	Progression	Y	25
+SBS35	Platinum chemotherapy treatment	Platinum	A0492577	0	0	0.85	Baseline	Y	14
+SBS35	Platinum chemotherapy treatment	Platinum	A0555236	0	0	0.81	Progression	Y	19
+SBS35	Platinum chemotherapy treatment	Platinum	A0652916	0	0	0.61	Baseline	Y	22
+SBS35	Platinum chemotherapy treatment	Platinum	A0692126	12.8277066375576	0.18149565020815	0.83	Progression	Y	14
+SBS35	Platinum chemotherapy treatment	Platinum	A0769194	0	0	0.84	Progression	Y	24
+SBS35	Platinum chemotherapy treatment	Platinum	A1053551	0	0	0.91	Progression	Y	26
+SBS35	Platinum chemotherapy treatment	Platinum	A1096272	0	0	0.55	Progression	Y	22
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0313742	0	0	0.68	Baseline	Y	25
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0315628	0	0	0.81	Progression	Y	21
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0412056	0	0	0.82	Progression	Y	23
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0426944	0	0	0.9	Progression	Y	20
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0445186	0	0	0.91	Progression	Y	25
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0492577	0	0	0.85	Baseline	Y	14
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0555236	0	0	0.81	Progression	Y	19
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0652916	0	0	0.61	Baseline	Y	22
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0692126	0	0	0.83	Progression	Y	14
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A0769194	0	0	0.84	Progression	Y	24
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A1053551	0	0	0.91	Progression	Y	26
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	A1096272	0	0	0.55	Progression	Y	22
+SBS37	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS37	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS37	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS37	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS37	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS37	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS37	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS37	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS37	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS37	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS37	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS37	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS38	Indirect effect of ultraviolet light	UV	A0313742	2.92180377379766	0.162360784941659	0.68	Baseline	Y	25
+SBS38	Indirect effect of ultraviolet light	UV	A0315628	0	0	0.81	Progression	Y	21
+SBS38	Indirect effect of ultraviolet light	UV	A0412056	0	0	0.82	Progression	Y	23
+SBS38	Indirect effect of ultraviolet light	UV	A0426944	0	0	0.9	Progression	Y	20
+SBS38	Indirect effect of ultraviolet light	UV	A0445186	0	0	0.91	Progression	Y	25
+SBS38	Indirect effect of ultraviolet light	UV	A0492577	0	0	0.85	Baseline	Y	14
+SBS38	Indirect effect of ultraviolet light	UV	A0555236	1.29705687452674	0.04488709415424	0.81	Progression	Y	19
+SBS38	Indirect effect of ultraviolet light	UV	A0652916	0.884246261045055	0.0689752896352877	0.61	Baseline	Y	22
+SBS38	Indirect effect of ultraviolet light	UV	A0692126	0	0	0.83	Progression	Y	14
+SBS38	Indirect effect of ultraviolet light	UV	A0769194	4.58859811374984	0.130362308080216	0.84	Progression	Y	24
+SBS38	Indirect effect of ultraviolet light	UV	A1053551	0	0	0.91	Progression	Y	26
+SBS38	Indirect effect of ultraviolet light	UV	A1096272	0	0	0.55	Progression	Y	22
+SBS39	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS39	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS39	Unknown	Unknown	A0412056	3.58440460860627	0.0658660205916826	0.82	Progression	Y	23
+SBS39	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS39	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS39	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS39	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS39	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS39	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS39	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS39	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS39	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS40	Unknown	Clock	A0313742	0	0	0.68	Baseline	Y	25
+SBS40	Unknown	Clock	A0315628	0	0	0.81	Progression	Y	21
+SBS40	Unknown	Clock	A0412056	0	0	0.82	Progression	Y	23
+SBS40	Unknown	Clock	A0426944	0	0	0.9	Progression	Y	20
+SBS40	Unknown	Clock	A0445186	0	0	0.91	Progression	Y	25
+SBS40	Unknown	Clock	A0492577	0	0	0.85	Baseline	Y	14
+SBS40	Unknown	Clock	A0555236	0	0	0.81	Progression	Y	19
+SBS40	Unknown	Clock	A0652916	0	0	0.61	Baseline	Y	22
+SBS40	Unknown	Clock	A0692126	0	0	0.83	Progression	Y	14
+SBS40	Unknown	Clock	A0769194	0	0	0.84	Progression	Y	24
+SBS40	Unknown	Clock	A1053551	0	0	0.91	Progression	Y	26
+SBS40	Unknown	Clock	A1096272	0	0	0.55	Progression	Y	22
+SBS41	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS41	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS41	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS41	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS41	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS41	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS41	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS41	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS41	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS41	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS41	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS41	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS42	Haloalkane exposure	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS42	Haloalkane exposure	Chemotherapy	A0315628	0	0	0.81	Progression	Y	21
+SBS42	Haloalkane exposure	Chemotherapy	A0412056	14.4872439917164	0.266213559926805	0.82	Progression	Y	23
+SBS42	Haloalkane exposure	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS42	Haloalkane exposure	Chemotherapy	A0445186	0	0	0.91	Progression	Y	25
+SBS42	Haloalkane exposure	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS42	Haloalkane exposure	Chemotherapy	A0555236	0	0	0.81	Progression	Y	19
+SBS42	Haloalkane exposure	Chemotherapy	A0652916	0	0	0.61	Baseline	Y	22
+SBS42	Haloalkane exposure	Chemotherapy	A0692126	0	0	0.83	Progression	Y	14
+SBS42	Haloalkane exposure	Chemotherapy	A0769194	0	0	0.84	Progression	Y	24
+SBS42	Haloalkane exposure	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS42	Haloalkane exposure	Chemotherapy	A1096272	0	0	0.55	Progression	Y	22
+SBS44	Defective DNA mismatch repair	MMRd	A0313742	0	0	0.68	Baseline	Y	25
+SBS44	Defective DNA mismatch repair	MMRd	A0315628	0	0	0.81	Progression	Y	21
+SBS44	Defective DNA mismatch repair	MMRd	A0412056	0	0	0.82	Progression	Y	23
+SBS44	Defective DNA mismatch repair	MMRd	A0426944	0	0	0.9	Progression	Y	20
+SBS44	Defective DNA mismatch repair	MMRd	A0445186	0	0	0.91	Progression	Y	25
+SBS44	Defective DNA mismatch repair	MMRd	A0492577	0	0	0.85	Baseline	Y	14
+SBS44	Defective DNA mismatch repair	MMRd	A0555236	0	0	0.81	Progression	Y	19
+SBS44	Defective DNA mismatch repair	MMRd	A0652916	0.996987481925892	0.0777696252255804	0.61	Baseline	Y	22
+SBS44	Defective DNA mismatch repair	MMRd	A0692126	0	0	0.83	Progression	Y	14
+SBS44	Defective DNA mismatch repair	MMRd	A0769194	0	0	0.84	Progression	Y	24
+SBS44	Defective DNA mismatch repair	MMRd	A1053551	0	0	0.91	Progression	Y	26
+SBS44	Defective DNA mismatch repair	MMRd	A1096272	0	0	0.55	Progression	Y	22
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0313742	0	0	0.68	Baseline	Y	25
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0315628	0	0	0.81	Progression	Y	21
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0412056	0	0	0.82	Progression	Y	23
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0426944	0	0	0.9	Progression	Y	20
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0445186	0	0	0.91	Progression	Y	25
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0492577	0	0	0.85	Baseline	Y	14
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0555236	0	0	0.81	Progression	Y	19
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0652916	0	0	0.61	Baseline	Y	22
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0692126	0	0	0.83	Progression	Y	14
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A0769194	0	0	0.84	Progression	Y	24
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A1053551	0	0	0.91	Progression	Y	26
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	A1096272	0	0	0.55	Progression	Y	22
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0313742	0	0	0.68	Baseline	Y	25
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0315628	0	0	0.81	Progression	Y	21
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0412056	0	0	0.82	Progression	Y	23
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0426944	0	0	0.9	Progression	Y	20
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0445186	0	0	0.91	Progression	Y	25
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0492577	0	0	0.85	Baseline	Y	14
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0555236	0	0	0.81	Progression	Y	19
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0652916	0	0	0.61	Baseline	Y	22
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0692126	0	0	0.83	Progression	Y	14
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A0769194	0	0	0.84	Progression	Y	24
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A1053551	0	0	0.91	Progression	Y	26
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	A1096272	0	0	0.55	Progression	Y	22
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0315628	0	0	0.81	Progression	Y	21
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0412056	0	0	0.82	Progression	Y	23
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0445186	0	0	0.91	Progression	Y	25
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0555236	0	0	0.81	Progression	Y	19
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0652916	0	0	0.61	Baseline	Y	22
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0692126	0	0	0.83	Progression	Y	14
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A0769194	0	0	0.84	Progression	Y	24
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS86	Unknown chemotherapy treatment	Chemotherapy	A1096272	0	0	0.55	Progression	Y	22
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0315628	11.847443901741	0.26143306917952	0.81	Progression	Y	21
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0412056	0	0	0.82	Progression	Y	23
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0445186	0	0	0.91	Progression	Y	25
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0555236	7.4393620145403	0.257453123106871	0.81	Progression	Y	19
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0652916	1.7909963505821	0.139705981760266	0.61	Baseline	Y	22
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0692126	0	0	0.83	Progression	Y	14
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A0769194	0	0	0.84	Progression	Y	24
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	A1096272	0	0	0.55	Progression	Y	22
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0315628	0	0	0.81	Progression	Y	21
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0412056	0	0	0.82	Progression	Y	23
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0445186	0	0	0.91	Progression	Y	25
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0555236	0	0	0.81	Progression	Y	19
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0652916	0	0	0.61	Baseline	Y	22
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0692126	0	0	0.83	Progression	Y	14
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A0769194	0	0	0.84	Progression	Y	24
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	A1096272	0	0	0.55	Progression	Y	22
+SBS89	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS89	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS89	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS89	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS89	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS89	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS89	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS89	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS89	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS89	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS89	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS89	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS90	Duocarmycin exposure	Chemotherapy	A0313742	0	0	0.68	Baseline	Y	25
+SBS90	Duocarmycin exposure	Chemotherapy	A0315628	0	0	0.81	Progression	Y	21
+SBS90	Duocarmycin exposure	Chemotherapy	A0412056	0	0	0.82	Progression	Y	23
+SBS90	Duocarmycin exposure	Chemotherapy	A0426944	0	0	0.9	Progression	Y	20
+SBS90	Duocarmycin exposure	Chemotherapy	A0445186	0	0	0.91	Progression	Y	25
+SBS90	Duocarmycin exposure	Chemotherapy	A0492577	0	0	0.85	Baseline	Y	14
+SBS90	Duocarmycin exposure	Chemotherapy	A0555236	0	0	0.81	Progression	Y	19
+SBS90	Duocarmycin exposure	Chemotherapy	A0652916	0	0	0.61	Baseline	Y	22
+SBS90	Duocarmycin exposure	Chemotherapy	A0692126	0	0	0.83	Progression	Y	14
+SBS90	Duocarmycin exposure	Chemotherapy	A0769194	0	0	0.84	Progression	Y	24
+SBS90	Duocarmycin exposure	Chemotherapy	A1053551	0	0	0.91	Progression	Y	26
+SBS90	Duocarmycin exposure	Chemotherapy	A1096272	0	0	0.55	Progression	Y	22
+SBS91	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS91	Unknown	Unknown	A0315628	2.50567530658379	0.0552917904655597	0.81	Progression	Y	21
+SBS91	Unknown	Unknown	A0412056	2.38610734891902	0.0438464439534842	0.82	Progression	Y	23
+SBS91	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS91	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS91	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS91	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS91	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS91	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS91	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS91	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS91	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS92	Tobacco smoking	Tobacco	A0313742	0	0	0.68	Baseline	Y	25
+SBS92	Tobacco smoking	Tobacco	A0315628	0	0	0.81	Progression	Y	21
+SBS92	Tobacco smoking	Tobacco	A0412056	0	0	0.82	Progression	Y	23
+SBS92	Tobacco smoking	Tobacco	A0426944	0	0	0.9	Progression	Y	20
+SBS92	Tobacco smoking	Tobacco	A0445186	0	0	0.91	Progression	Y	25
+SBS92	Tobacco smoking	Tobacco	A0492577	0	0	0.85	Baseline	Y	14
+SBS92	Tobacco smoking	Tobacco	A0555236	0	0	0.81	Progression	Y	19
+SBS92	Tobacco smoking	Tobacco	A0652916	0	0	0.61	Baseline	Y	22
+SBS92	Tobacco smoking	Tobacco	A0692126	0	0	0.83	Progression	Y	14
+SBS92	Tobacco smoking	Tobacco	A0769194	0	0	0.84	Progression	Y	24
+SBS92	Tobacco smoking	Tobacco	A1053551	0	0	0.91	Progression	Y	26
+SBS92	Tobacco smoking	Tobacco	A1096272	0	0	0.55	Progression	Y	22
+SBS93	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS93	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS93	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS93	Unknown	Unknown	A0426944	2.96386467572074	0.0630518811531284	0.9	Progression	Y	20
+SBS93	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS93	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS93	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS93	Unknown	Unknown	A0652916	0	0	0.61	Baseline	Y	22
+SBS93	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS93	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS93	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS93	Unknown	Unknown	A1096272	0	0	0.55	Progression	Y	22
+SBS94	Unknown	Unknown	A0313742	0	0	0.68	Baseline	Y	25
+SBS94	Unknown	Unknown	A0315628	0	0	0.81	Progression	Y	21
+SBS94	Unknown	Unknown	A0412056	0	0	0.82	Progression	Y	23
+SBS94	Unknown	Unknown	A0426944	0	0	0.9	Progression	Y	20
+SBS94	Unknown	Unknown	A0445186	0	0	0.91	Progression	Y	25
+SBS94	Unknown	Unknown	A0492577	0	0	0.85	Baseline	Y	14
+SBS94	Unknown	Unknown	A0555236	0	0	0.81	Progression	Y	19
+SBS94	Unknown	Unknown	A0652916	5.33304096244737	0.416001809933487	0.61	Baseline	Y	22
+SBS94	Unknown	Unknown	A0692126	0	0	0.83	Progression	Y	14
+SBS94	Unknown	Unknown	A0769194	0	0	0.84	Progression	Y	24
+SBS94	Unknown	Unknown	A1053551	0	0	0.91	Progression	Y	26
+SBS94	Unknown	Unknown	A1096272	2.92374796370434	0.337888479938301	0.55	Progression	Y	22

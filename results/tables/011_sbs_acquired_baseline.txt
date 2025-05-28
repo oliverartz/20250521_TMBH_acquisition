@@ -1,0 +1,121 @@
+SBS_signature	aetiology	category	status	exposure	rel_exposure	cos_similiarity
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	Acquired	0	0	0.92
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	Baseline	0	0	0.78
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	Acquired	0	0	0.92
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	Baseline	4.92854009145492	0.157526356779982	0.78
+SBS3	Defective homologous recombination DNA damage repair	HRD	Acquired	78.1433137565636	0.202268737289665	0.92
+SBS3	Defective homologous recombination DNA damage repair	HRD	Baseline	0	0	0.78
+SBS4	Tobacco smoking	Tobacco	Acquired	0	0	0.92
+SBS4	Tobacco smoking	Tobacco	Baseline	0	0	0.78
+SBS5	Unknown (Clock-like signature)	Clock	Acquired	0	0	0.92
+SBS5	Unknown (Clock-like signature)	Clock	Baseline	0	0	0.78
+SBS6	Defective DNA mismatch repair	MMRd	Acquired	54.5801290462688	0.141277010822548	0.92
+SBS6	Defective DNA mismatch repair	MMRd	Baseline	0	0	0.78
+SBS7a	Ultraviolet light exposure	UV	Acquired	0	0	0.92
+SBS7a	Ultraviolet light exposure	UV	Baseline	0	0	0.78
+SBS7b	Ultraviolet light exposure	UV	Acquired	0	0	0.92
+SBS7b	Ultraviolet light exposure	UV	Baseline	0	0	0.78
+SBS7c	Ultraviolet light exposure	UV	Acquired	0	0	0.92
+SBS7c	Ultraviolet light exposure	UV	Baseline	2.61371337003533	0.0835396967882332	0.78
+SBS7d	Ultraviolet light exposure	UV	Acquired	0	0	0.92
+SBS7d	Ultraviolet light exposure	UV	Baseline	0	0	0.78
+SBS8	Unknown	Unknown	Acquired	0	0	0.92
+SBS8	Unknown	Unknown	Baseline	0	0	0.78
+SBS9	Polymerase eta somatic hypermutation activity	POLH	Acquired	0	0	0.92
+SBS9	Polymerase eta somatic hypermutation activity	POLH	Baseline	0	0	0.78
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	Acquired	0	0	0.92
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	Baseline	0	0	0.78
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	Acquired	0	0	0.92
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	Baseline	0	0	0.78
+SBS10c	Defective POLD1 proofreading	POLD1	Acquired	0	0	0.92
+SBS10c	Defective POLD1 proofreading	POLD1	Baseline	0	0	0.78
+SBS10d	Defective POLD1 proofreading	POLD1	Acquired	0	0	0.92
+SBS10d	Defective POLD1 proofreading	POLD1	Baseline	0	0	0.78
+SBS11	Temozolomide treatment	TMZ	Acquired	0	0	0.92
+SBS11	Temozolomide treatment	TMZ	Baseline	0	0	0.78
+SBS12	Unknown	Unknown	Acquired	0	0	0.92
+SBS12	Unknown	Unknown	Baseline	0	0	0.78
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	Acquired	0	0	0.92
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	Baseline	0	0	0.78
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	Acquired	0	0	0.92
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	Baseline	0	0	0.78
+SBS15	Defective DNA mismatch repair	MMRd	Acquired	0	0	0.92
+SBS15	Defective DNA mismatch repair	MMRd	Baseline	14.4871661847353	0.463039859025236	0.78
+SBS16	Unknown	Unknown	Acquired	0	0	0.92
+SBS16	Unknown	Unknown	Baseline	0	0	0.78
+SBS17a	Unknown	ROS	Acquired	51.1121851582918	0.132300470188531	0.92
+SBS17a	Unknown	ROS	Baseline	0	0	0.78
+SBS17b	Unknown	ROS	Acquired	132.536585342304	0.343062080082572	0.92
+SBS17b	Unknown	ROS	Baseline	1.42418753362904	0.0455199855091008	0.78
+SBS18	Damage by reactive oxygen species	ROS	Acquired	0	0	0.92
+SBS18	Damage by reactive oxygen species	ROS	Baseline	0	0	0.78
+SBS19	Unknown	Unknown	Acquired	0	0	0.92
+SBS19	Unknown	Unknown	Baseline	0	0	0.78
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	Acquired	0	0	0.92
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	Baseline	0	0	0.78
+SBS21	Defective DNA mismatch repair	MMRd	Acquired	0	0	0.92
+SBS21	Defective DNA mismatch repair	MMRd	Baseline	0	0	0.78
+SBS22	Aristolochic acid exposure	Chemotherapy	Acquired	0	0	0.92
+SBS22	Aristolochic acid exposure	Chemotherapy	Baseline	0	0	0.78
+SBS23	Unknown	Unknown	Acquired	0	0	0.92
+SBS23	Unknown	Unknown	Baseline	0	0	0.78
+SBS24	Aflatoxin exposure	Chemotherapy	Acquired	0	0	0.92
+SBS24	Aflatoxin exposure	Chemotherapy	Baseline	0	0	0.78
+SBS25	Chemotherapy treatment	Chemotherapy	Acquired	69.9619024064848	0.181091701616683	0.92
+SBS25	Chemotherapy treatment	Chemotherapy	Baseline	0	0	0.78
+SBS26	Defective DNA mismatch repair	MMRd	Acquired	0	0	0.92
+SBS26	Defective DNA mismatch repair	MMRd	Baseline	0	0	0.78
+SBS28	Unknown	POLE	Acquired	0	0	0.92
+SBS28	Unknown	POLE	Baseline	0	0	0.78
+SBS29	Tobacco chewing	Tobacco	Acquired	0	0	0.92
+SBS29	Tobacco chewing	Tobacco	Baseline	0	0	0.78
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	Acquired	0	0	0.92
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	Baseline	0	0	0.78
+SBS31	Platinum chemotherapy treatment	Platinum	Acquired	0	0	0.92
+SBS31	Platinum chemotherapy treatment	Platinum	Baseline	0	0	0.78
+SBS32	Azathioprine treatment	Chemotherapy	Acquired	0	0	0.92
+SBS32	Azathioprine treatment	Chemotherapy	Baseline	0	0	0.78
+SBS33	Unknown	Unknown	Acquired	0	0	0.92
+SBS33	Unknown	Unknown	Baseline	0	0	0.78
+SBS34	Unknown	Unknown	Acquired	0	0	0.92
+SBS34	Unknown	Unknown	Baseline	0	0	0.78
+SBS35	Platinum chemotherapy treatment	Platinum	Acquired	0	0	0.92
+SBS35	Platinum chemotherapy treatment	Platinum	Baseline	0	0	0.78
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	Acquired	0	0	0.92
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	Baseline	0	0	0.78
+SBS37	Unknown	Unknown	Acquired	0	0	0.92
+SBS37	Unknown	Unknown	Baseline	0	0	0.78
+SBS38	Indirect effect of ultraviolet light	UV	Acquired	0	0	0.92
+SBS38	Indirect effect of ultraviolet light	UV	Baseline	0	0	0.78
+SBS39	Unknown	Unknown	Acquired	0	0	0.92
+SBS39	Unknown	Unknown	Baseline	0	0	0.78
+SBS40	Unknown	Clock	Acquired	0	0	0.92
+SBS40	Unknown	Clock	Baseline	0	0	0.78
+SBS41	Unknown	Unknown	Acquired	0	0	0.92
+SBS41	Unknown	Unknown	Baseline	0	0	0.78
+SBS42	Haloalkane exposure	Chemotherapy	Acquired	0	0	0.92
+SBS42	Haloalkane exposure	Chemotherapy	Baseline	0	0	0.78
+SBS44	Defective DNA mismatch repair	MMRd	Acquired	0	0	0.92
+SBS44	Defective DNA mismatch repair	MMRd	Baseline	0	0	0.78
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	Acquired	0	0	0.92
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	Baseline	0	0	0.78
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	Acquired	0	0	0.92
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	Baseline	0	0	0.78
+SBS86	Unknown chemotherapy treatment	Chemotherapy	Acquired	0	0	0.92
+SBS86	Unknown chemotherapy treatment	Chemotherapy	Baseline	0	0	0.78
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	Acquired	0	0	0.92
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	Baseline	7.83347513576471	0.250374101897448	0.78
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	Acquired	0	0	0.92
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	Baseline	0	0	0.78
+SBS89	Unknown	Unknown	Acquired	0	0	0.92
+SBS89	Unknown	Unknown	Baseline	0	0	0.78
+SBS90	Duocarmycin exposure	Chemotherapy	Acquired	0	0	0.92
+SBS90	Duocarmycin exposure	Chemotherapy	Baseline	0	0	0.78
+SBS91	Unknown	Unknown	Acquired	0	0	0.92
+SBS91	Unknown	Unknown	Baseline	0	0	0.78
+SBS92	Tobacco smoking	Tobacco	Acquired	0	0	0.92
+SBS92	Tobacco smoking	Tobacco	Baseline	0	0	0.78
+SBS93	Unknown	Unknown	Acquired	0	0	0.92
+SBS93	Unknown	Unknown	Baseline	0	0	0.78
+SBS94	Unknown	Unknown	Acquired	0	0	0.92
+SBS94	Unknown	Unknown	Baseline	0	0	0.78

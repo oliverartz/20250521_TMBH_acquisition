@@ -35,6 +35,10 @@ patient_meta_mod <- patient_meta %>% clean_names()
 patient_meta_mod <- patient_meta_mod %>% 
   mutate(baseline_impact_version = str_sub(impact_baseline, -3, -1))
 
+# remove mrn
+patient_meta_mod <- patient_meta_mod %>% 
+  select(-mrn)
+
 # # make long
 # patient_meta_mod_long <- patient_meta_mod %>%
 #   select(patient_id, guardant_baseline, guardant_progression, acquired_tmbh, baseline_impact_version) %>% 

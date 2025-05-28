@@ -131,7 +131,7 @@ annotate_patient_mutations <- function(guardant_data, impact_data, gene_panel_li
 }
 
 # make MAF files for different grouping strategies -----------------------------
-make_maf <- function(sample, sub_dir, output_dir){
+make_maf <- function(sample, sub_dir, output_dir, data = NULL){
   
   # DEBUG ----
   if (FALSE) {
@@ -142,6 +142,11 @@ make_maf <- function(sample, sub_dir, output_dir){
     sample <- "Y_Baseline"
   }
   
+  # use provided data or default to annotated_mutations_progression
+  if (is.null(data)) {
+    data <- annotated_mutations_progression
+  }
+  
   # define columns to keep
   columns_to_keep <- c("chromosome", "position", "reference_allele", "tumor_seq_allele2", "tumor_sample_barcode")
   
@@ -149,7 +154,7 @@ make_maf <- function(sample, sub_dir, output_dir){
   sample_id <- sample
   
   # filter for SNV and Indels
-  test_maf <- annotated_mutations_progression %>% 
+  test_maf <- data %>% 
     filter(variant_type %in% c("SNV", "Indel"))
   
   # filter for single sample 
@@ -178,8 +183,8 @@ make_maf <- function(sample, sub_dir, output_dir){
   if (file.exists(output_file)) {
     file.remove(output_file)
   }
-cat("Deleting existing file:", sample, "\n")
-cat("Writing new file:", sample, "\n")
+  cat("Deleting existing file:", sample, "\n")
+  cat("Writing new file:", sample, "\n")
 
   write.table(test_maf, file = output_file, sep = "\t", quote = FALSE, row.names = FALSE)
 }
