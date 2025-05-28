@@ -207,7 +207,7 @@ make_maf_impact <- function(sample, sub_dir, output_dir){
   # select relevant columns
   sample_impact <- sample_impact %>% 
     select(all_of(columns_to_keep)) %>% 
-    dplyr::rename(position = start_position)
+    dplyr::rename(start_Position = start_position)
   
   # make output dir
   output_dir <- paste0(output_dir, sub_dir, "/")
