@@ -49,10 +49,25 @@ source(paste0(project_dir, "/analysis/scripts/009_plot_variant_types_fractions.R
 
 # input VCF files were generated on the hpc
 # Require user input to confirm that VCF files are up-to-date
+user_input <- readline(prompt = "Are your VCF files up-to-date? (y/n): ")
+
+if (tolower(user_input) != "y" && tolower(user_input) != "yes") {
+  cat("Please update your VCF files on the HPC before continuing.\n")
+  cat("Analysis stopped.\n")
+  stop("VCF files need to be updated")
+}
+
+cat("Continuing with signature analysis...\n")
 
 source(paste0(project_dir, "/analysis/scripts/010_sbs_per_sample.R"))
 source(paste0(project_dir, "/analysis/scripts/011_sbs_acquired_baseline.R"))
 source(paste0(project_dir, "/analysis/scripts/012_sbs_baseline_progression_samples.R"))
+source(paste0(project_dir, "/analysis/scripts/012_sbs_baseline_progression_samples.R"))
+source(paste0(project_dir, "/analysis/scripts/013_sbs_acquired_per_patient.R"))
+source(paste0(project_dir, "/analysis/scripts/014_mean_n_variants_per_patient.R"))
+source(paste0(project_dir, "/analysis/scripts/015_pathways.R"))
+source(paste0(project_dir, "/analysis/scripts/016_pathways_SanchezVega2018.R"))
+source(paste0(project_dir, "/analysis/scripts/017_acquired_alteration_types_progression.R"))
 
 analysis_end <- Sys.time()
 analysis_duration <- as.numeric(difftime(analysis_end, analysis_start, units = "mins"))
