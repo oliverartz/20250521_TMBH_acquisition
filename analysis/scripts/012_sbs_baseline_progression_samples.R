@@ -45,7 +45,6 @@ guardant_sample_key <- patient_meta_mod %>%
                names_to = "sample_type",
                values_to = "gh_request_id")
 
-
 # analysis ---------------------------------------------------------------------
 # get COSMIC signatures
 signatures <- get_known_signatures(muttype = "snv",
@@ -166,7 +165,7 @@ signatures_df_tmbh %>%
   labs(
     #title = "Relative exposure of SBS signatures",
     x = "",
-    y = "Relative exposure",
+    y = "Relative Exposure",
     fill = "Etiology") +
   facet_grid(~ sample_type, scales = "free_x", space = "free_x")
 

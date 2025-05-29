@@ -160,8 +160,8 @@ signatures_df %>%
   scale_fill_manual(values = etiology_colors) +
   labs(
     #title = "Relative exposure of SBS signatures",
-    x = "",
-    y = "Relative exposure",
+    x = "Status vs IMPACT baseline",
+    y = "Relative Exposure",
     fill = "Etiology")
 
 # export -----------------------------------------------------------------------

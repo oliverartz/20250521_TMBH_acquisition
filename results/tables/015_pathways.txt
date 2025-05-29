@@ -1,0 +1,48 @@
+patient_id	gs_name	n_mutations	acquired_tmbh
+2	DNA Repair	2	No
+2	MAPK	2	No
+2	Other	32	No
+5	MAPK	1	No
+5	Other	2	No
+10	Other	4	No
+13	MAPK	8	No
+13	Other	6	No
+14	DNA Repair	2	Yes
+14	MAPK	15	Yes
+14	Other	42	Yes
+16	MAPK	1	No
+16	Other	19	No
+16	PI3K	1	No
+17	MAPK	1	No
+17	Other	11	No
+18	DNA Repair	2	No
+18	MAPK	14	No
+18	Other	12	No
+18	PI3K	1	No
+19	MAPK	3	Yes
+19	Mismatch Repair	1	Yes
+19	Other	13	Yes
+19	PI3K	1	Yes
+20	DNA Repair	1	Yes
+20	MAPK	7	Yes
+20	Other	26	Yes
+21	DNA Repair	1	Yes
+21	MAPK	5	Yes
+21	Other	27	Yes
+21	PI3K	2	Yes
+22	MAPK	1	Yes
+22	Other	5	Yes
+23	MAPK	7	Yes
+23	Other	27	Yes
+23	PI3K	1	Yes
+24	DNA Repair	1	Yes
+24	MAPK	5	Yes
+24	Other	16	Yes
+25	DNA Repair	2	Yes
+25	MAPK	17	Yes
+25	Mismatch Repair	2	Yes
+25	Other	105	Yes
+25	PI3K	3	Yes
+26	DNA Repair	3	Yes
+26	MAPK	14	Yes
+26	Other	86	Yes

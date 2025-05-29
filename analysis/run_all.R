@@ -47,6 +47,13 @@ source(paste0(project_dir, "/analysis/scripts/007_plot_TMB.R"))
 source(paste0(project_dir, "/analysis/scripts/008_plot_MSI.R"))
 source(paste0(project_dir, "/analysis/scripts/009_plot_variant_types_fractions.R"))
 
+# input VCF files were generated on the hpc
+# Require user input to confirm that VCF files are up-to-date
+
+source(paste0(project_dir, "/analysis/scripts/010_sbs_per_sample.R"))
+source(paste0(project_dir, "/analysis/scripts/011_sbs_acquired_baseline.R"))
+source(paste0(project_dir, "/analysis/scripts/012_sbs_baseline_progression_samples.R"))
+
 analysis_end <- Sys.time()
 analysis_duration <- as.numeric(difftime(analysis_end, analysis_start, units = "mins"))
 cat("Analysis completed in", round(analysis_duration, 2), "minutes\n")
