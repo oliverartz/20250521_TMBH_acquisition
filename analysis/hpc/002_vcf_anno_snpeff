@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Annotate VCF files using SNPeff
+# Submits jobs to the LSF queue for each VCF file in the specified directory
+
+# navigate to the analysis directory
+work_dir="/data/ldiaz/artzo/analysis/20241016_TKI_TMB_increase/20250521_TMBH_acquisition"
+cd $work_dir/analysis/hpc
+chmod 755 netMHCpan_vcf_anno_SNPEff.sh
+
+# define group name
+# group_name="status_compared_to_baseline_impact"
+group_name="patient_status_compared_to_baseline"
+
+# define directories
+vcf_dir="$work_dir/data/processed/hpc/vcf/$group_name"
+
+# confirm VCF files are in the directory
+ls $vcf_dir
+
+# define output directory
+output_dir="$work_dir/data/processed/hpc/snpeff/$group_name"
+
+# loop through all VCF files and submit a job for each
+for vcf_file in "$vcf_dir"/*.vcf; do
+    sample=$(basename "$vcf_file" .vcf)
+
+    bsub -J "${sample}_snpEff" \
+    -o "$output_dir/${sample}.out" \
+    -e "$output_dir/${sample}.err" \
+    -n 1 \
+    -R "rusage[mem=4]" \
+    -W 8:00 "bash netMHCpan_vcf_anno_SNPEff.sh $sample $vcf_file $output_dir"
+done
