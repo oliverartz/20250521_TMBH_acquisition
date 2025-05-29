@@ -31,5 +31,5 @@ for vcf_file in "$vcf_dir"/*.vcf; do
     -e "$output_dir/${sample}.err" \
     -n 1 \
     -R "rusage[mem=4]" \
-    -W 8:00 "bash netMHCpan_vcf_anno_SNPEff.sh $sample $vcf_file $output_dir"
+    -W 2:00 "bash netMHCpan_vcf_anno_SNPEff.sh $sample $vcf_file $output_dir"
 done
