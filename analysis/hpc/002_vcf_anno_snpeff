@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Annotate VCF files using SNPeff
+# Annotate VCF files using SNPEff
 # Submits jobs to the LSF queue for each VCF file in the specified directory
 
 # navigate to the analysis directory
