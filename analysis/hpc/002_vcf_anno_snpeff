@@ -4,7 +4,7 @@
 # Submits jobs to the LSF queue for each VCF file in the specified directory
 
 # navigate to the analysis directory
-work_dir="/data/ldiaz/artzo/analysis/20241016_TKI_TMB_increase/20250521_TMBH_acquisition"
+work_dir="/data/ldiaz/artzo/analysis/20250521_TMBH_acquisition"
 cd $work_dir/analysis/hpc
 chmod 755 netMHCpan_vcf_anno_SNPEff.sh
 
