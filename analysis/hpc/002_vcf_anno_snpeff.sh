@@ -20,6 +20,7 @@ ls $vcf_dir
 
 # define output directory
 output_dir="$work_dir/data/processed/hpc/snpeff/$group_name"
+mkdir -p "$output_dir"
 
 # loop through all VCF files and submit a job for each
 for vcf_file in "$vcf_dir"/*.vcf; do
