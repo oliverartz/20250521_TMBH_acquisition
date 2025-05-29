@@ -1,0 +1,3 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_MODERATE	variants_effect_missense_variant
+TP53	ENSG00000141510	ENST00000269305	protein_coding	1	1
