@@ -2,3 +2,5 @@
 data/
 NOTES.md
 .DS_Store
+*.err
+*.log
