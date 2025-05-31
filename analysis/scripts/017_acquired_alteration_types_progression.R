@@ -127,6 +127,14 @@ cowplot::plot_grid(p_snv_y, p_indel_y, p_cnv_y,
                    nrow = 2)
 
 # export -----------------------------------------------------------------------
+# plot
+ggsave(paste0(project_dir, "/results/figures/017_acquired_alteration_types_progression.pdf"), 
+       height = 6, width = 8)
+
+# data
+write.table(merge_subtype, 
+            paste0(project_dir, "/results/tables/017_acquired_alteration_types_progression.txt"), 
+            sep = "\t", row.names = FALSE, quote = FALSE)
 
 # cleanup ----------------------------------------------------------------------
 rm()
