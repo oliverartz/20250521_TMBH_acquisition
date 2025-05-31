@@ -1,1 +1,140 @@
 # Acquired high tumor mutational burden following targeted therapy and activity of subsequent immune checkpoint blockade in microsatellite stable colorectal cancer
+
+This repository contains the code and analysis pipeline for the publication "Acquired high tumor mutational burden following targeted therapy and activity of subsequent immune checkpoint blockade in microsatellite stable colorectal cancer" by Yeh et al.
+
+## Overview
+
+This study investigates the acquisition of high tumor mutational burden (TMB-H) in microsatellite stable (MSS) colorectal cancer patients following targeted therapy and its implications for subsequent immune checkpoint blockade response.
+
+Based on the script files, here's a comprehensive list of each script with its output plot and the specific samples used:
+
+## Script-by-Script Analysis Summary
+
+### **001_preprocess_patient_key.R**
+- **Output**: `001_patient_key_mod.txt` (processed patient metadata file)
+- **Samples Used**: Master patient key linking all sample types
+- **Purpose**: Creates unified patient identifier mapping between IMPACT and Guardant360 samples
+
+### **002_preprocess_guardant_omni.R**
+- **Output**: `002_guardant_mod.txt` (processed Guardant360 data)
+- **Samples Used**: All Guardant360 OMNI liquid biopsy samples (baseline + progression)
+- **Purpose**: Processes and cleans Guardant360 sequencing data
+
+### **003_preprocess_patient_meta.R**
+- **Output**: `003_patient_meta_mod.txt` (processed patient metadata)
+- **Samples Used**: Clinical metadata for all patients
+- **Purpose**: Standardizes patient clinical annotations
+
+### **004_preprocess_impact.R**
+- **Output**: `004_impact_mod.txt` (processed IMPACT data)
+- **Samples Used**: IMPACT tissue sequencing samples (baseline + progression where available)
+- **Purpose**: Processes MSK-IMPACT tissue sequencing data
+
+### **005_annotate_acquired_mutations.R**
+- **Output**: `005_annotated_mutations_progression.txt` and `005_annotated_mutations_all.txt`
+- **Samples Used**: 
+  - **Baseline**: IMPACT baseline + Guardant360 baseline
+  - **Progression**: Guardant360 progression samples
+- **Purpose**: Identifies acquired, baseline, and lost mutations by comparing timepoints
+
+### **006_make_maf.R**
+- **Output**: MAF files for downstream analysis (multiple groupings)
+- **Samples Used**: All processed mutation data (IMPACT + Guardant360)
+- **Purpose**: Generates standardized MAF files for signature analysis and neoantigen prediction
+
+### **007_plot_TMB.R**
+- **Output Plot**: `007_TMB.pdf` - TMB distribution by acquisition status
+- **Samples Used**: IMPACT
+- **Comparison**: TMB-H acquiring vs non-acquiring patients
+- **Data Source**: Baseline tissue TMB measurements
+
+### **008_plot_MSI.R**
+- **Output Plot**: `008_MSI.pdf` - MSI score distribution
+- **Samples Used**: IMPACT
+- **Comparison**: TMB-H acquiring vs non-acquiring patients
+- **Purpose**: Validates microsatellite stable (MSS) status of cohort
+
+### **009_plot_variant_types_fractions.R**
+- **Output Plot**: `009_variant_types_fractions.pdf` - Variant type fractions
+- **Samples Used**: **IMPACT baseline tissue samples only**
+- **Analysis**: Fraction of missense, frameshift, nonsense, in-frame, and other variants
+- **Comparison**: TMB-H acquiring vs non-acquiring patients
+
+### **010_sbs_per_sample.R**
+- **Output Plot**: `010_SBS_per_sample.pdf` - Mutational signatures per sample
+- **Samples Used**: **IMPACT baseline tissue samples** 
+- **Analysis**: COSMIC SBS signature deconvolution for individual samples
+- **Comparison**: TMB-H acquiring vs non-acquiring patients
+
+### **011_sbs_acquired_baseline.R**
+- **Output Plot**: `011_sbs_acquired_baseline.pdf` - Signatures in acquired vs baseline mutations
+- **Samples Used**: **TMB-H acquiring patients only**
+- **Comparison**: 
+  - **Acquired mutations**: From Guardant360 progression samples
+  - **Baseline mutations**: From IMPACT baseline + Guardant360 baseline (pooled)
+- **Analysis**: Signature differences between acquired and baseline mutation sets
+
+### **012_sbs_baseline_progression_samples.R**
+- **Output Plot**: `012_sbs_baseline_progression_samples.pdf` - Signatures in paired samples
+- **Samples Used**: **Guardant360 paired baseline and progression samples** from TMB-H acquiring patients
+- **Analysis**: Evolution of mutational signatures between baseline and progression timepoints
+- **Sample Type**: Liquid biopsy only (Guardant360)
+
+### **013_sbs_acquired_per_patient.R**
+- **Output Plot**: `013_sbs_acquired_per_patient.pdf` - Signatures in acquired mutations per patient
+- **Samples Used**: **Acquired mutations** from TMB-H acquiring and non-acquiring patients
+- **Source**: Mutations identified as acquired in Guardant360 progression samples
+- **Analysis**: Patient-level signature analysis of newly acquired variants
+
+### **014_mean_n_variants_per_patient.R**
+- **Output Plot**: `014_mean_n_variants_per_patient.pdf` - Mean variant counts over time
+- **Samples Used**: **All Guardant360 samples** (baseline + progression)
+- **Analysis**: Changes in mutation burden between baseline and progression
+- **Comparison**: TMB-H acquiring vs non-acquiring patients
+
+### **015_pathways.R**
+- **Output Plot**: `015_pathways.pdf` - Pathway enrichment heatmap
+- **Samples Used**: **Acquired mutations** from TMB-H acquiring patients (SNV + Indel only)
+- **Source**: Guardant360 progression samples
+- **Analysis**: MSigDB REACTOME pathway enrichment (MAPK, PI3K, DNA repair, MMR)
+
+### **016_pathways_SanchezVega2018.R**
+- **Output Plot**: `016_pathways_SanchezVega2018.pdf` - Cancer pathway analysis
+- **Samples Used**: **Acquired mutations** from TMB-H acquiring patients (SNV + Indel only)
+- **Source**: Guardant360 progression samples
+- **Analysis**: Canonical cancer pathways from Sanchez-Vega et al. 2018
+
+### **017_acquired_alteration_types_progression.R**
+- **Output Plot**: `017_acquired_alteration_types_progression.pdf` - Alteration type distribution
+- **Samples Used**: **Acquired mutations only** from Guardant360 progression samples
+- **Analysis**: Types of alterations (missense, nonsense, frameshifts, CNV subtypes) in acquired mutations
+- **Comparison**: TMB-H acquiring vs non-acquiring patients
+
+### **018_maxVAF.R**
+- **Output Plot**: `018_maxVAF_histogram.pdf` - VAF distribution with clonality inference
+- **Samples Used**: **Guardant360 progression samples** from TMB-H acquiring patients with VAF data
+- **Analysis**: VAF corrected by maximum VAF per sample (clonality proxy)
+- **Comparison**: Acquired vs baseline mutations
+
+### **019_phbr_acquired_baseline.R**
+- **Output Plot**: `019_phbr_acquired_baseline.pdf` - Neoantigen presentation comparison
+- **Samples Used**: **TMB-H acquiring patients** with HLA typing data
+- **Comparison**: 
+  - **Acquired mutations**: From Guardant360 progression
+  - **Baseline mutations**: From IMPACT baseline + Guardant360 baseline (overlapping)
+- **Analysis**: HLA-binding rank (PHBR) for neoantigen presentation potential
+- **Requires**: HPC-processed neoantigen predictions
+
+### **020_phbr_clonality.R**
+- **Output Plot**: `020_phbr_clonality.pdf` - Neoantigen presentation by clonality
+- **Samples Used**: **Acquired mutations** from TMB-H acquiring patients with clonality classification
+- **Analysis**: PHBR stratified by clonal vs subclonal status (using VAF thresholds)
+
+### **021_blood_tissue_tmb.R**
+- **Output Plot**: `021_blood_tissue_tmb.pdf` - Platform concordance analysis
+- **Samples Used**: **Patients with both IMPACT baseline and Guardant360 baseline/progression samples**
+- **Comparison**: 
+  - **Tissue TMB**: IMPACT baseline samples
+  - **Plasma TMB**: Guardant360 baseline and progression samples
+- **Analysis**: TMB concordance between tissue and liquid biopsy platforms
+- **Faceting**: By TMB-H acquisition status
