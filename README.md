@@ -6,6 +6,120 @@ This repository contains the code and analysis pipeline for the publication "Acq
 
 This study investigates the acquisition of high tumor mutational burden (TMB-H) in microsatellite stable (MSS) colorectal cancer patients following targeted therapy and its implications for subsequent immune checkpoint blockade response.
 
+## Repository Structure
+
+```
+├── analysis/
+│   ├── run_all.R                    # Master script to run entire analysis
+│   ├── hpc/                         # High-performance computing scripts
+│   ├── scripts/                     # Main analysis scripts
+│   │   ├── utils/                   # Utility functions
+│   │   └── 001-021 numbered scripts # Sequential analysis pipeline
+│   ├── results_to_onedrive.sh       # Upload results to shared drive
+│   └── publication/                 # Publication-specific analyses
+├── data/
+│   ├── metadata/                    # Sample metadata and gene panels
+│   ├── processed/                   # Processed data files
+│   └── raw/                         # Raw sequencing data
+└── results/
+    ├── figures/                     # Generated figures
+    └── tables/                      # Analysis results tables
+```
+
+
+## Running the Analysis
+
+### Prerequisites
+- R (≥4.0.0)
+- Required R packages: `tidyverse`, `data.table`, `MutationalPatterns`, `msigdbr`, `ggpubr`, `here`
+- Access to HPC cluster (lilac) for neoantigen prediction pipeline
+
+### Quick Start
+```r
+# Run complete analysis pipeline
+source("analysis/run_all.R")
+```
+
+**Note**: The pipeline includes an interactive checkpoint before HPC-dependent analyses (scripts 010-021). User confirmation is required to proceed with analyses that depend on HPC-processed files.
+
+### HPC Pipeline for Neoantigen Prediction
+**HPC Path**: `/data/ldiaz/artzo/analysis/20250521_TMBH_acquisition`
+
+#### 1. Initial Setup
+Run locally:
+```bash
+bash analysis/hpc/sync_to_hpc.sh
+```
+
+#### 2. HPC Processing Pipeline
+Run on `lilac`:
+```bash
+cd /data/ldiaz/artzo/analysis/20250521_TMBH_acquisition
+
+# Step 1: Convert MAF to VCF format
+bash analysis/hpc/001_convert_maf_to_vcf.sh
+
+# Step 2: Annotate VCF files with SNPEff to extract protein sequences
+bash analysis/hpc/002_vcf_anno_snpeff.sh
+
+# Step 3: Extract protein sequences from SNPEff annotations
+Rscript analysis/hpc/003_extract_proteins_from_SNPEff.R
+
+# Step 4: Extract HLA haplotypes and format for netMHCpan
+Rscript analysis/hpc/004_extract_haplotypes_for_netMHCpan.R
+
+# Step 5: Run netMHCpan for neoantigen binding prediction
+bash analysis/hpc/005_run_netMHCpan.sh
+
+# Step 6: Summarize netMHCpan results and calculate PHBR scores
+Rscript analysis/hpc/006_summarize_netMHCpan.R
+```
+
+#### 3. Retrieve Results
+Run locally:
+```bash
+bash analysis/hpc/sync_from_hpc.sh
+```
+
+## Uploading Results
+
+### Automatic Upload
+Results are automatically uploaded to OneDrive as part of the main analysis pipeline. The upload occurs after all analyses are completed.
+
+### Manual Upload
+To manually upload results to the shared OneDrive folder:
+
+```bash
+# Make script executable (if needed)
+chmod +x analysis/results_to_onedrive.sh
+
+# Run upload script
+bash analysis/results_to_onedrive.sh
+```
+
+### From R
+You can also trigger the upload from within R:
+
+```r
+# Upload results to shared drive
+system(paste0(project_dir, "/analysis/results_to_onedrive.sh"))
+```
+
+### What Gets Uploaded
+The script uploads:
+- **Figures**: All PDF files from `results/figures/` → OneDrive figures folder
+- **Tables**: All TXT files from `results/tables/` → OneDrive tables folder
+
+The upload uses `rsync` to efficiently sync only changed files while preserving timestamps and showing progress.
+
+### OneDrive Location
+Results are synced to:
+```
+OneDrive/Documents/4_projects/20241016_TKI_TMB_increase/20250521_TMBH_acquisition/results/
+├── figures/    # All generated PDF plots
+└── tables/     # All analysis result tables
+```
+
 Based on the script files, here's a comprehensive list of each script with its output plot and the specific samples used:
 
 ## Script-by-Script Analysis Summary

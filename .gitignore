@@ -4,3 +4,4 @@ NOTES.md
 .DS_Store
 *.err
 *.log
+results_to_onedrive.sh

@@ -80,6 +80,10 @@ cat("Analysis completed in", round(analysis_duration, 2), "minutes\n")
 end_time <- Sys.time()
 total_duration <- as.numeric(difftime(end_time, start_time, units = "mins"))
 
+# upload results to shared drive
+cat("Uploading results to shared drive...\n")
+system(paste0(project_dir, "/analysis/results_to_onedrive.sh"), intern = FALSE)
+
 cat("\n=== TIMING SUMMARY ===\n")
 cat("Started at:", format(start_time, "%Y-%m-%d %H:%M:%S"), "\n")
 cat("Ended at:", format(end_time, "%Y-%m-%d %H:%M:%S"), "\n")
