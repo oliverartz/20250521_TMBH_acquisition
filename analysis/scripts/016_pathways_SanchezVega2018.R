@@ -118,8 +118,7 @@ p_tile <- pathway_counts_per_patient %>%
                        option = "plasma", na.value = "grey95") +
   labs(
     x = NULL,
-    y = "Pathway",
-    title = "Acquired Mutations by Pathway and Patient"
+    y = "Pathway"
   ) +
   facet_grid(~ acquired_tmbh, scales = "free_x", space = "free_x")
 
