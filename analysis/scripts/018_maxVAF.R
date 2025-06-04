@@ -25,8 +25,8 @@ project_folder <- "20250521_TMBH_acquisition"
 project_dir <- paste0(project_root, "/", project_folder)
 
 # clonality threshold
-subclonal_thresh <- 0.5
-ultrasubclonal_thresh <- 0.2
+subclonal_thresh <- 50
+ultrasubclonal_thresh <- 20
 
 # load data --------------------------------------------------------------------
 source(paste0(project_dir, "/analysis/scripts/utils/002_plotting_utils.R"))
@@ -102,7 +102,7 @@ p_hist <- mut_mod %>%
 # zoom into low VAF region
 p_zoom <- p_hist + 
   coord_cartesian(xlim = c(0, 2)) +
-  geom_vline(xintercept = c(subclonal_thresh, ultrasubclonal_thresh), linetype = "dashed", alpha = 0.5) +
+  #geom_vline(xintercept = c(subclonal_thresh, ultrasubclonal_thresh), linetype = "dashed", alpha = 0.5) +
   theme(legend.position = "none",
         #panel.border = element_rect(colour = "black", fill = NA, linewidth = 1),
         NULL

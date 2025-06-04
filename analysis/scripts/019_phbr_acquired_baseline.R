@@ -28,8 +28,8 @@ thresh_strong_binder <- 0.5
 thresh_weak_binder <- 2
 
 # thresholds to categorize clonality
-subclonal_thresh <- 0.5
-ultrasubclonal_thresh <- 0.2
+subclonal_thresh <- 50
+ultrasubclonal_thresh <- 20
 
 # load data --------------------------------------------------------------------
 source(paste0(project_dir, "/analysis/scripts/utils/002_plotting_utils.R"))

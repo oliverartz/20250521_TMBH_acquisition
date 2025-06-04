@@ -110,6 +110,10 @@ merge_subtype <- merge_subtype %>%
                                    acquired_tmbh == "N" ~ "No",
                                    TRUE ~ "Other"))
 
+# add percentage to subtype
+merge_subtype <- merge_subtype %>% 
+  mutate(perc_of_total_subtype = round(n / n_total * 100, 0))
+
 
 # plot -------------------------------------------------------------------------
 # call plotting function
