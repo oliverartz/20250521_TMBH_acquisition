@@ -1,100 +1,913 @@
-SBS_signature	aetiology	category	status	exposure	rel_exposure	cos_similiarity	patient_id	acquired_tmbh
-SBS7d	Ultraviolet light exposure	UV	2_Acquired	2.4124245347031	0.0632475733728007	0.81	2	No
-SBS15	Defective DNA mismatch repair	MMRd	2_Acquired	3.6805312963373	0.096494074681856	0.81	2	No
-SBS17a	Unknown	ROS	2_Acquired	1.86308541454299	0.0488453129874196	0.81	2	No
-SBS17b	Unknown	ROS	2_Acquired	10.2247140051759	0.268065732194127	0.81	2	No
-SBS30	Defective DNA base excision repair due to NTHL1 mutations	Other DNA repair	2_Acquired	1.95596051336765	0.0512802594667469	0.81	2	No
-SBS32	Azathioprine treatment	Chemotherapy	2_Acquired	2.67674264909228	0.0701773152540934	0.81	2	No
-SBS35	Platinum chemotherapy treatment	Platinum	2_Acquired	9.19487541875424	0.241066010287859	0.81	2	No
-SBS87	Thiopurine chemotherapy treatment	Chemotherapy	2_Acquired	2.59880472460738	0.0681339831098242	0.81	2	No
-SBS93	Unknown	Unknown	2_Acquired	3.53542417042732	0.0926897386452732	0.81	2	No
-SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	16_Acquired	7.88540366308712	0.471786522100225	0.78	16	No
-SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	16_Acquired	1.8176239909188	0.10874909361657	0.78	16	No
-SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	16_Acquired	3.82089442201545	0.228605480162455	0.78	16	No
-SBS23	Unknown	Unknown	16_Acquired	3.19000105171897	0.19085890412075	0.78	16	No
-SBS15	Defective DNA mismatch repair	MMRd	10_Acquired	4.7212472379703	0.741766812265536	0.77	10	No
-SBS31	Platinum chemotherapy treatment	Platinum	10_Acquired	1.6436199411779	0.258233187734464	0.77	10	No
-SBS6	Defective DNA mismatch repair	MMRd	17_Acquired	4.76012438591204	0.360610446888985	0.76	17	No
-SBS11	Temozolomide treatment	Chemotherapy	17_Acquired	2.64448425027957	0.200336917687811	0.76	17	No
-SBS18	Damage by reactive oxygen species	ROS	17_Acquired	1.55924791108392	0.118123191841542	0.76	17	No
-SBS87	Thiopurine chemotherapy treatment	Chemotherapy	17_Acquired	4.23632782613353	0.320929443581663	0.76	17	No
-SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	18_Acquired	3.01735483417559	0.11568079376102	0.7	18	No
-SBS4	Tobacco smoking	Tobacco	18_Acquired	5.28015218158476	0.20243300145758	0.7	18	No
-SBS8	Unknown	Unknown	18_Acquired	4.79996402424297	0.184023318059798	0.7	18	No
-SBS11	Temozolomide treatment	Chemotherapy	18_Acquired	1.52354089733349	0.0584102400999412	0.7	18	No
-SBS15	Defective DNA mismatch repair	MMRd	18_Acquired	2.11171530592053	0.0809599520809839	0.7	18	No
-SBS17b	Unknown	ROS	18_Acquired	1.35810392573896	0.0520676383035888	0.7	18	No
-SBS28	Unknown	POLE	18_Acquired	1.49116312554284	0.0571689255887897	0.7	18	No
-SBS32	Azathioprine treatment	Chemotherapy	18_Acquired	2.73032967742688	0.104676685929219	0.7	18	No
-SBS39	Unknown	Unknown	18_Acquired	1.70155561767638	0.065235053647612	0.7	18	No
-SBS87	Thiopurine chemotherapy treatment	Chemotherapy	18_Acquired	2.0695758922505	0.0793443910714667	0.7	18	No
-SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	13_Acquired	0.937275368534661	0.0757424322700847	0.52	13	No
-SBS3	Defective homologous recombination DNA damage repair	HRD	13_Acquired	1.38345098798938	0.111798459955893	0.52	13	No
-SBS16	Unknown	Unknown	13_Acquired	2.35631661035786	0.190416986574534	0.52	13	No
-SBS19	Unknown	Unknown	13_Acquired	2.36090511873244	0.190787789858659	0.52	13	No
-SBS24	Aflatoxin exposure	Chemotherapy	13_Acquired	1.73150062458147	0.13992480031563	0.52	13	No
-SBS44	Defective DNA mismatch repair	MMRd	13_Acquired	1.72928087640394	0.139745419600382	0.52	13	No
-SBS86	Unknown chemotherapy treatment	Chemotherapy	13_Acquired	1.87577886848255	0.151584111424818	0.52	13	No
-SBS15	Defective DNA mismatch repair	MMRd	5_Acquired	2.25361995209855	0.53121026971952	0.51	5	No
-SBS29	Tobacco chewing	Tobacco	5_Acquired	0.828442188823668	0.195275604550028	0.51	5	No
-SBS37	Unknown	Unknown	5_Acquired	1.16036327997273	0.273514125730452	0.51	5	No
-SBS3	Defective homologous recombination DNA damage repair	HRD	26_Acquired	27.7180260660834	0.290348364644034	0.9	26	Yes
-SBS17a	Unknown	ROS	25_Acquired	15.8178676712921	0.137084895154204	0.9	25	Yes
-SBS17a	Unknown	ROS	26_Acquired	24.3355106738748	0.254916266767743	0.9	26	Yes
-SBS17b	Unknown	ROS	25_Acquired	64.6628448671303	0.560397867347883	0.9	25	Yes
-SBS17b	Unknown	ROS	26_Acquired	43.4111857841918	0.454735368588223	0.9	26	Yes
-SBS25	Chemotherapy treatment	Chemotherapy	25_Acquired	34.9066731651513	0.302517237497913	0.9	25	Yes
-SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	14_Acquired	2.53645305307979	0.045826143823446	0.84	14	Yes
-SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	14_Acquired	4.9995505636143	0.0903269717145331	0.84	14	Yes
-SBS17a	Unknown	ROS	14_Acquired	5.33921175456782	0.0964636366801943	0.84	14	Yes
-SBS17b	Unknown	ROS	14_Acquired	6.38676658044091	0.115389828929294	0.84	14	Yes
-SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	14_Acquired	4.25895426720177	0.0769466048461997	0.84	14	Yes
-SBS22	Aristolochic acid exposure	Chemotherapy	14_Acquired	3.80657215973926	0.0687734090148954	0.84	14	Yes
-SBS23	Unknown	Unknown	14_Acquired	6.39853275722393	0.115602408661001	0.84	14	Yes
-SBS24	Aflatoxin exposure	Chemotherapy	14_Acquired	6.38963630199969	0.115441676241322	0.84	14	Yes
-SBS25	Chemotherapy treatment	Chemotherapy	14_Acquired	2.82195079461241	0.0509842367551708	0.84	14	Yes
-SBS30	Defective DNA base excision repair due to NTHL1 mutations	Other DNA repair	14_Acquired	6.50231313578215	0.117477410663536	0.84	14	Yes
-SBS35	Platinum chemotherapy treatment	Platinum	14_Acquired	4.07791499900377	0.0736757650677699	0.84	14	Yes
-SBS91	Unknown	Unknown	14_Acquired	1.83161974951074	0.0330919076026371	0.84	14	Yes
-SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	20_Acquired	6.88602965464874	0.235073934123896	0.83	20	Yes
-SBS8	Unknown	Unknown	20_Acquired	7.00080075358578	0.238991967461531	0.83	20	Yes
-SBS17b	Unknown	ROS	20_Acquired	10.2894730441302	0.351260019177025	0.83	20	Yes
-SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	20_Acquired	5.11673441809278	0.174674079237547	0.83	20	Yes
-SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	19_Acquired	1.92344485670703	0.101961767732799	0.81	19	Yes
-SBS6	Defective DNA mismatch repair	MMRd	19_Acquired	1.1647829254908	0.0617451161617118	0.81	19	Yes
-SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	19_Acquired	1.07611542679412	0.0570448540897146	0.81	19	Yes
-SBS17b	Unknown	ROS	19_Acquired	5.56362648170847	0.29492771217325	0.81	19	Yes
-SBS26	Defective DNA mismatch repair	MMRd	19_Acquired	3.33296906919994	0.176680613904457	0.81	19	Yes
-SBS38	Indirect effect of ultraviolet light	UV	19_Acquired	1.77690255449848	0.0941935636542076	0.81	19	Yes
-SBS87	Thiopurine chemotherapy treatment	Chemotherapy	19_Acquired	4.02653206276353	0.213446372283859	0.81	19	Yes
-SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	24_Acquired	1.37628072000222	0.0645289623800444	0.8	24	Yes
-SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	24_Acquired	1.07496899758031	0.0504015154731386	0.8	24	Yes
-SBS7d	Ultraviolet light exposure	UV	24_Acquired	1.72414813865949	0.0808392421402247	0.8	24	Yes
-SBS15	Defective DNA mismatch repair	MMRd	24_Acquired	2.18861637158057	0.102616523979094	0.8	24	Yes
-SBS17a	Unknown	ROS	24_Acquired	5.56816250033753	0.261071555597811	0.8	24	Yes
-SBS17b	Unknown	ROS	24_Acquired	3.22818052785784	0.151358030967545	0.8	24	Yes
-SBS24	Aflatoxin exposure	Chemotherapy	24_Acquired	2.49366854322102	0.116919347394149	0.8	24	Yes
-SBS38	Indirect effect of ultraviolet light	UV	24_Acquired	1.314124640665	0.0616146824319565	0.8	24	Yes
-SBS42	Haloalkane exposure	Chemotherapy	24_Acquired	1.14629371124101	0.0537456804372246	0.8	24	Yes
-SBS86	Unknown chemotherapy treatment	Chemotherapy	24_Acquired	1.21366448783465	0.0569044591988124	0.8	24	Yes
-SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	23_Acquired	3.17380033372902	0.0891315922537406	0.76	23	Yes
-SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	23_Acquired	1.41370291573264	0.0397018018159185	0.76	23	Yes
-SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	23_Acquired	4.90526359218434	0.137757233733098	0.76	23	Yes
-SBS22	Aristolochic acid exposure	Chemotherapy	23_Acquired	4.15428956363722	0.11666721423998	0.76	23	Yes
-SBS26	Defective DNA mismatch repair	MMRd	23_Acquired	7.10442347163918	0.19951745840547	0.76	23	Yes
-SBS42	Haloalkane exposure	Chemotherapy	23_Acquired	11.6109783148173	0.326077533556551	0.76	23	Yes
-SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	23_Acquired	1.98985906284065	0.0558823139397484	0.76	23	Yes
-SBS91	Unknown	Unknown	23_Acquired	1.25571187939741	0.0352648520554931	0.76	23	Yes
-SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	21_Acquired	2.28053696850513	0.0775315994394475	0.74	21	Yes
-SBS6	Defective DNA mismatch repair	MMRd	21_Acquired	6.72560041796213	0.228650780406784	0.74	21	Yes
-SBS7b	Ultraviolet light exposure	UV	21_Acquired	2.37082440918816	0.0806011088497852	0.74	21	Yes
-SBS8	Unknown	Unknown	21_Acquired	4.35443756925204	0.148038165601248	0.74	21	Yes
-SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	21_Acquired	1.20235953924323	0.0408767143292176	0.74	21	Yes
-SBS17b	Unknown	ROS	21_Acquired	1.89225081277874	0.0643310036545895	0.74	21	Yes
-SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	21_Acquired	1.91719625362813	0.0651790758211385	0.74	21	Yes
-SBS33	Unknown	Unknown	21_Acquired	2.42841045592785	0.0825588663300551	0.74	21	Yes
-SBS87	Thiopurine chemotherapy treatment	Chemotherapy	21_Acquired	3.73053025336614	0.126827138211363	0.74	21	Yes
-SBS91	Unknown	Unknown	21_Acquired	2.51214355785008	0.0854055473563714	0.74	21	Yes
-SBS26	Defective DNA mismatch repair	MMRd	22_Acquired	1.0018699936382	0.202728707224404	0.41	22	Yes
-SBS32	Azathioprine treatment	Chemotherapy	22_Acquired	1.36694110578452	0.276600961189848	0.41	22	Yes
-SBS94	Unknown	Unknown	22_Acquired	2.57311354141866	0.520670331585748	0.41	22	Yes
+SBS_signature	aetiology	category	status	exposure	rel_exposure	cos_similiarity	patient_id	acquired_tmbh	sum
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	10_Acquired	0	0	0.77	10	No	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	13_Acquired	0	0	0.52	13	No	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	14_Acquired	2.53645305307979	0.045826143823446	0.84	14	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	16_Acquired	7.88540366308712	0.471786522100225	0.78	16	No	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	17_Acquired	0	0	0.76	17	No	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	18_Acquired	0	0	0.7	18	No	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	19_Acquired	1.92344485670703	0.101961767732799	0.81	19	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	2_Acquired	0	0	0.81	2	No	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	20_Acquired	6.88602965464874	0.235073934123896	0.83	20	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	21_Acquired	0	0	0.74	21	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	22_Acquired	0	0	0.41	22	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	23_Acquired	3.17380033372902	0.0891315922537406	0.76	23	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	24_Acquired	1.37628072000222	0.0645289623800444	0.8	24	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	25_Acquired	0	0	0.9	25	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	26_Acquired	0	0	0.9	26	Yes	1.00830892241415
+SBS1	Spontaneous deamination of 5-methylcytosine (Clock-like signature)	Clock	5_Acquired	0	0	0.51	5	No	1.00830892241415
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	10_Acquired	0	0	0.77	10	No	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	13_Acquired	0.937275368534661	0.0757424322700847	0.52	13	No	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	14_Acquired	0	0	0.84	14	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	16_Acquired	1.8176239909188	0.10874909361657	0.78	16	No	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	17_Acquired	0	0	0.76	17	No	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	18_Acquired	3.01735483417559	0.11568079376102	0.7	18	No	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	19_Acquired	0	0	0.81	19	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	2_Acquired	0	0	0.81	2	No	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	20_Acquired	0	0	0.83	20	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	21_Acquired	2.28053696850513	0.0775315994394475	0.74	21	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	22_Acquired	0	0	0.41	22	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	23_Acquired	1.41370291573264	0.0397018018159185	0.76	23	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	24_Acquired	1.07496899758031	0.0504015154731386	0.8	24	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	25_Acquired	0	0	0.9	25	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	26_Acquired	0	0	0.9	26	Yes	0.8846612566721
+SBS2	Activity of APOBEC family of cytidine deaminases	APOBEC	5_Acquired	0	0	0.51	5	No	0.8846612566721
+SBS3	Defective homologous recombination DNA damage repair	HRD	10_Acquired	0	0	0.77	10	No	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	13_Acquired	1.38345098798938	0.111798459955893	0.52	13	No	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	14_Acquired	0	0	0.84	14	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	16_Acquired	0	0	0.78	16	No	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	17_Acquired	0	0	0.76	17	No	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	18_Acquired	0	0	0.7	18	No	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	19_Acquired	0	0	0.81	19	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	2_Acquired	0	0	0.81	2	No	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	20_Acquired	0	0	0.83	20	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	21_Acquired	0	0	0.74	21	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	22_Acquired	0	0	0.41	22	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	23_Acquired	0	0	0.76	23	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	24_Acquired	0	0	0.8	24	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	25_Acquired	0	0	0.9	25	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	26_Acquired	27.7180260660834	0.290348364644034	0.9	26	Yes	0.402146824599927
+SBS3	Defective homologous recombination DNA damage repair	HRD	5_Acquired	0	0	0.51	5	No	0.402146824599927
+SBS4	Tobacco smoking	Tobacco	10_Acquired	0	0	0.77	10	No	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	13_Acquired	0	0	0.52	13	No	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	14_Acquired	0	0	0.84	14	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	16_Acquired	0	0	0.78	16	No	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	17_Acquired	0	0	0.76	17	No	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	18_Acquired	5.28015218158476	0.20243300145758	0.7	18	No	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	19_Acquired	0	0	0.81	19	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	2_Acquired	0	0	0.81	2	No	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	20_Acquired	0	0	0.83	20	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	21_Acquired	0	0	0.74	21	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	22_Acquired	0	0	0.41	22	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	23_Acquired	0	0	0.76	23	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	24_Acquired	0	0	0.8	24	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	25_Acquired	0	0	0.9	25	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	26_Acquired	0	0	0.9	26	Yes	0.397708606007609
+SBS4	Tobacco smoking	Tobacco	5_Acquired	0	0	0.51	5	No	0.397708606007609
+SBS5	Unknown (Clock-like signature)	Clock	10_Acquired	0	0	0.77	10	No	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	13_Acquired	0	0	0.52	13	No	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	14_Acquired	0	0	0.84	14	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	16_Acquired	0	0	0.78	16	No	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	17_Acquired	0	0	0.76	17	No	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	18_Acquired	0	0	0.7	18	No	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	19_Acquired	0	0	0.81	19	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	2_Acquired	0	0	0.81	2	No	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	20_Acquired	0	0	0.83	20	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	21_Acquired	0	0	0.74	21	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	22_Acquired	0	0	0.41	22	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	23_Acquired	0	0	0.76	23	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	24_Acquired	0	0	0.8	24	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	25_Acquired	0	0	0.9	25	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	26_Acquired	0	0	0.9	26	Yes	1.00830892241415
+SBS5	Unknown (Clock-like signature)	Clock	5_Acquired	0	0	0.51	5	No	1.00830892241415
+SBS6	Defective DNA mismatch repair	MMRd	10_Acquired	0	0	0.77	10	No	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	13_Acquired	0	0	0.52	13	No	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	14_Acquired	0	0	0.84	14	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	16_Acquired	0	0	0.78	16	No	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	17_Acquired	4.76012438591204	0.360610446888985	0.76	17	No	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	18_Acquired	0	0	0.7	18	No	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	19_Acquired	1.1647829254908	0.0617451161617118	0.81	19	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	2_Acquired	0	0	0.81	2	No	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	20_Acquired	0	0	0.83	20	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	21_Acquired	6.72560041796213	0.228650780406784	0.74	21	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	22_Acquired	0	0	0.41	22	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	23_Acquired	0	0	0.76	23	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	24_Acquired	0	0	0.8	24	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	25_Acquired	0	0	0.9	25	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	26_Acquired	0	0	0.9	26	Yes	3.23952593522407
+SBS6	Defective DNA mismatch repair	MMRd	5_Acquired	0	0	0.51	5	No	3.23952593522407
+SBS7a	Ultraviolet light exposure	UV	10_Acquired	0	0	0.77	10	No	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	13_Acquired	0	0	0.52	13	No	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	14_Acquired	0	0	0.84	14	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	16_Acquired	0	0	0.78	16	No	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	17_Acquired	0	0	0.76	17	No	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	18_Acquired	0	0	0.7	18	No	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	19_Acquired	0	0	0.81	19	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	2_Acquired	0	0	0.81	2	No	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	20_Acquired	0	0	0.83	20	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	21_Acquired	0	0	0.74	21	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	22_Acquired	0	0	0.41	22	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	23_Acquired	0	0	0.76	23	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	24_Acquired	0	0	0.8	24	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	25_Acquired	0	0	0.9	25	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	26_Acquired	0	0	0.9	26	Yes	0.380496170448975
+SBS7a	Ultraviolet light exposure	UV	5_Acquired	0	0	0.51	5	No	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	10_Acquired	0	0	0.77	10	No	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	13_Acquired	0	0	0.52	13	No	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	14_Acquired	0	0	0.84	14	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	16_Acquired	0	0	0.78	16	No	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	17_Acquired	0	0	0.76	17	No	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	18_Acquired	0	0	0.7	18	No	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	19_Acquired	0	0	0.81	19	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	2_Acquired	0	0	0.81	2	No	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	20_Acquired	0	0	0.83	20	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	21_Acquired	2.37082440918816	0.0806011088497852	0.74	21	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	22_Acquired	0	0	0.41	22	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	23_Acquired	0	0	0.76	23	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	24_Acquired	0	0	0.8	24	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	25_Acquired	0	0	0.9	25	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	26_Acquired	0	0	0.9	26	Yes	0.380496170448975
+SBS7b	Ultraviolet light exposure	UV	5_Acquired	0	0	0.51	5	No	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	10_Acquired	0	0	0.77	10	No	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	13_Acquired	0	0	0.52	13	No	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	14_Acquired	0	0	0.84	14	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	16_Acquired	0	0	0.78	16	No	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	17_Acquired	0	0	0.76	17	No	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	18_Acquired	0	0	0.7	18	No	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	19_Acquired	0	0	0.81	19	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	2_Acquired	0	0	0.81	2	No	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	20_Acquired	0	0	0.83	20	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	21_Acquired	0	0	0.74	21	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	22_Acquired	0	0	0.41	22	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	23_Acquired	0	0	0.76	23	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	24_Acquired	0	0	0.8	24	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	25_Acquired	0	0	0.9	25	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	26_Acquired	0	0	0.9	26	Yes	0.380496170448975
+SBS7c	Ultraviolet light exposure	UV	5_Acquired	0	0	0.51	5	No	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	10_Acquired	0	0	0.77	10	No	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	13_Acquired	0	0	0.52	13	No	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	14_Acquired	0	0	0.84	14	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	16_Acquired	0	0	0.78	16	No	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	17_Acquired	0	0	0.76	17	No	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	18_Acquired	0	0	0.7	18	No	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	19_Acquired	0	0	0.81	19	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	2_Acquired	2.4124245347031	0.0632475733728007	0.81	2	No	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	20_Acquired	0	0	0.83	20	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	21_Acquired	0	0	0.74	21	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	22_Acquired	0	0	0.41	22	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	23_Acquired	0	0	0.76	23	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	24_Acquired	1.72414813865949	0.0808392421402247	0.8	24	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	25_Acquired	0	0	0.9	25	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	26_Acquired	0	0	0.9	26	Yes	0.380496170448975
+SBS7d	Ultraviolet light exposure	UV	5_Acquired	0	0	0.51	5	No	0.380496170448975
+SBS8	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS8	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS8	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS8	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS8	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS8	Unknown	Unknown	18_Acquired	4.79996402424297	0.184023318059798	0.7	18	No	2.44714996329116
+SBS8	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS8	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS8	Unknown	Unknown	20_Acquired	7.00080075358578	0.238991967461531	0.83	20	Yes	2.44714996329116
+SBS8	Unknown	Unknown	21_Acquired	4.35443756925204	0.148038165601248	0.74	21	Yes	2.44714996329116
+SBS8	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS8	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS8	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS8	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS8	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS8	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	10_Acquired	0	0	0.77	10	No	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	13_Acquired	0	0	0.52	13	No	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	14_Acquired	0	0	0.84	14	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	16_Acquired	0	0	0.78	16	No	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	17_Acquired	0	0	0.76	17	No	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	18_Acquired	0	0	0.7	18	No	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	19_Acquired	0	0	0.81	19	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	2_Acquired	0	0	0.81	2	No	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	20_Acquired	0	0	0.83	20	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	21_Acquired	0	0	0.74	21	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	22_Acquired	0	0	0.41	22	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	23_Acquired	0	0	0.76	23	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	24_Acquired	0	0	0.8	24	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	25_Acquired	0	0	0.9	25	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	26_Acquired	0	0	0.9	26	Yes	0.194926159321888
+SBS10a	Polymerase epsilon exonuclease domain mutations	POLE	5_Acquired	0	0	0.51	5	No	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	10_Acquired	0	0	0.77	10	No	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	13_Acquired	0	0	0.52	13	No	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	14_Acquired	0	0	0.84	14	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	16_Acquired	0	0	0.78	16	No	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	17_Acquired	0	0	0.76	17	No	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	18_Acquired	0	0	0.7	18	No	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	19_Acquired	0	0	0.81	19	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	2_Acquired	0	0	0.81	2	No	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	20_Acquired	0	0	0.83	20	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	21_Acquired	0	0	0.74	21	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	22_Acquired	0	0	0.41	22	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	23_Acquired	4.90526359218434	0.137757233733098	0.76	23	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	24_Acquired	0	0	0.8	24	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	25_Acquired	0	0	0.9	25	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	26_Acquired	0	0	0.9	26	Yes	0.194926159321888
+SBS10b	Polymerase epsilon exonuclease domain mutations	POLE	5_Acquired	0	0	0.51	5	No	0.194926159321888
+SBS11	Temozolomide treatment	TMZ	10_Acquired	0	0	0.77	10	No	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	13_Acquired	0	0	0.52	13	No	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	14_Acquired	0	0	0.84	14	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	16_Acquired	0	0	0.78	16	No	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	17_Acquired	2.64448425027957	0.200336917687811	0.76	17	No	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	18_Acquired	1.52354089733349	0.0584102400999412	0.7	18	No	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	19_Acquired	0	0	0.81	19	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	2_Acquired	0	0	0.81	2	No	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	20_Acquired	0	0	0.83	20	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	21_Acquired	0	0	0.74	21	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	22_Acquired	0	0	0.41	22	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	23_Acquired	0	0	0.76	23	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	24_Acquired	0	0	0.8	24	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	25_Acquired	0	0	0.9	25	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	26_Acquired	0	0	0.9	26	Yes	0.258747157787752
+SBS11	Temozolomide treatment	TMZ	5_Acquired	0	0	0.51	5	No	0.258747157787752
+SBS12	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS12	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS12	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS12	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS12	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS12	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS12	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS12	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS12	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS12	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS12	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS12	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS12	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS12	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS12	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS12	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	10_Acquired	0	0	0.77	10	No	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	13_Acquired	0	0	0.52	13	No	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	14_Acquired	4.9995505636143	0.0903269717145331	0.84	14	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	16_Acquired	3.82089442201545	0.228605480162455	0.78	16	No	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	17_Acquired	0	0	0.76	17	No	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	18_Acquired	0	0	0.7	18	No	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	19_Acquired	1.07611542679412	0.0570448540897146	0.81	19	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	2_Acquired	0	0	0.81	2	No	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	20_Acquired	0	0	0.83	20	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	21_Acquired	1.20235953924323	0.0408767143292176	0.74	21	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	22_Acquired	0	0	0.41	22	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	23_Acquired	0	0	0.76	23	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	24_Acquired	0	0	0.8	24	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	25_Acquired	0	0	0.9	25	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	26_Acquired	0	0	0.9	26	Yes	0.8846612566721
+SBS13	Activity of APOBEC family of cytidine deaminases	APOBEC	5_Acquired	0	0	0.51	5	No	0.8846612566721
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	10_Acquired	0	0	0.77	10	No	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	13_Acquired	0	0	0.52	13	No	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	14_Acquired	0	0	0.84	14	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	16_Acquired	0	0	0.78	16	No	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	17_Acquired	0	0	0.76	17	No	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	18_Acquired	0	0	0.7	18	No	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	19_Acquired	0	0	0.81	19	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	2_Acquired	0	0	0.81	2	No	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	20_Acquired	0	0	0.83	20	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	21_Acquired	0	0	0.74	21	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	22_Acquired	0	0	0.41	22	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	23_Acquired	0	0	0.76	23	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	24_Acquired	0	0	0.8	24	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	25_Acquired	0	0	0.9	25	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	26_Acquired	0	0	0.9	26	Yes	3.23952593522407
+SBS14	Concurrent polymerase epsilon mutation and defective DNA mismatch repair	MMRd	5_Acquired	0	0	0.51	5	No	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	10_Acquired	4.7212472379703	0.741766812265536	0.77	10	No	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	13_Acquired	0	0	0.52	13	No	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	14_Acquired	0	0	0.84	14	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	16_Acquired	0	0	0.78	16	No	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	17_Acquired	0	0	0.76	17	No	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	18_Acquired	2.11171530592053	0.0809599520809839	0.7	18	No	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	19_Acquired	0	0	0.81	19	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	2_Acquired	3.6805312963373	0.096494074681856	0.81	2	No	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	20_Acquired	0	0	0.83	20	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	21_Acquired	0	0	0.74	21	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	22_Acquired	0	0	0.41	22	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	23_Acquired	0	0	0.76	23	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	24_Acquired	2.18861637158057	0.102616523979094	0.8	24	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	25_Acquired	0	0	0.9	25	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	26_Acquired	0	0	0.9	26	Yes	3.23952593522407
+SBS15	Defective DNA mismatch repair	MMRd	5_Acquired	2.25361995209855	0.53121026971952	0.51	5	No	3.23952593522407
+SBS16	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS16	Unknown	Unknown	13_Acquired	2.35631661035786	0.190416986574534	0.52	13	No	2.44714996329116
+SBS16	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS16	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS16	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS16	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS16	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS16	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS16	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS16	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS16	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS16	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS16	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS16	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS16	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS16	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS17a	Unknown	ROS	10_Acquired	0	0	0.77	10	No	3.22903806036444
+SBS17a	Unknown	ROS	13_Acquired	0	0	0.52	13	No	3.22903806036444
+SBS17a	Unknown	ROS	14_Acquired	5.33921175456782	0.0964636366801943	0.84	14	Yes	3.22903806036444
+SBS17a	Unknown	ROS	16_Acquired	0	0	0.78	16	No	3.22903806036444
+SBS17a	Unknown	ROS	17_Acquired	0	0	0.76	17	No	3.22903806036444
+SBS17a	Unknown	ROS	18_Acquired	0	0	0.7	18	No	3.22903806036444
+SBS17a	Unknown	ROS	19_Acquired	0	0	0.81	19	Yes	3.22903806036444
+SBS17a	Unknown	ROS	2_Acquired	1.86308541454299	0.0488453129874196	0.81	2	No	3.22903806036444
+SBS17a	Unknown	ROS	20_Acquired	0	0	0.83	20	Yes	3.22903806036444
+SBS17a	Unknown	ROS	21_Acquired	0	0	0.74	21	Yes	3.22903806036444
+SBS17a	Unknown	ROS	22_Acquired	0	0	0.41	22	Yes	3.22903806036444
+SBS17a	Unknown	ROS	23_Acquired	0	0	0.76	23	Yes	3.22903806036444
+SBS17a	Unknown	ROS	24_Acquired	5.56816250033753	0.261071555597811	0.8	24	Yes	3.22903806036444
+SBS17a	Unknown	ROS	25_Acquired	15.8178676712921	0.137084895154204	0.9	25	Yes	3.22903806036444
+SBS17a	Unknown	ROS	26_Acquired	24.3355106738748	0.254916266767743	0.9	26	Yes	3.22903806036444
+SBS17a	Unknown	ROS	5_Acquired	0	0	0.51	5	No	3.22903806036444
+SBS17b	Unknown	ROS	10_Acquired	0	0	0.77	10	No	3.22903806036444
+SBS17b	Unknown	ROS	13_Acquired	0	0	0.52	13	No	3.22903806036444
+SBS17b	Unknown	ROS	14_Acquired	6.38676658044091	0.115389828929294	0.84	14	Yes	3.22903806036444
+SBS17b	Unknown	ROS	16_Acquired	0	0	0.78	16	No	3.22903806036444
+SBS17b	Unknown	ROS	17_Acquired	0	0	0.76	17	No	3.22903806036444
+SBS17b	Unknown	ROS	18_Acquired	1.35810392573896	0.0520676383035888	0.7	18	No	3.22903806036444
+SBS17b	Unknown	ROS	19_Acquired	5.56362648170847	0.29492771217325	0.81	19	Yes	3.22903806036444
+SBS17b	Unknown	ROS	2_Acquired	10.2247140051759	0.268065732194127	0.81	2	No	3.22903806036444
+SBS17b	Unknown	ROS	20_Acquired	10.2894730441302	0.351260019177025	0.83	20	Yes	3.22903806036444
+SBS17b	Unknown	ROS	21_Acquired	1.89225081277874	0.0643310036545895	0.74	21	Yes	3.22903806036444
+SBS17b	Unknown	ROS	22_Acquired	0	0	0.41	22	Yes	3.22903806036444
+SBS17b	Unknown	ROS	23_Acquired	0	0	0.76	23	Yes	3.22903806036444
+SBS17b	Unknown	ROS	24_Acquired	3.22818052785784	0.151358030967545	0.8	24	Yes	3.22903806036444
+SBS17b	Unknown	ROS	25_Acquired	64.6628448671303	0.560397867347883	0.9	25	Yes	3.22903806036444
+SBS17b	Unknown	ROS	26_Acquired	43.4111857841918	0.454735368588223	0.9	26	Yes	3.22903806036444
+SBS17b	Unknown	ROS	5_Acquired	0	0	0.51	5	No	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	10_Acquired	0	0	0.77	10	No	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	13_Acquired	0	0	0.52	13	No	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	14_Acquired	0	0	0.84	14	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	16_Acquired	0	0	0.78	16	No	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	17_Acquired	1.55924791108392	0.118123191841542	0.76	17	No	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	18_Acquired	0	0	0.7	18	No	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	19_Acquired	0	0	0.81	19	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	2_Acquired	0	0	0.81	2	No	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	20_Acquired	0	0	0.83	20	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	21_Acquired	0	0	0.74	21	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	22_Acquired	0	0	0.41	22	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	23_Acquired	0	0	0.76	23	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	24_Acquired	0	0	0.8	24	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	25_Acquired	0	0	0.9	25	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	26_Acquired	0	0	0.9	26	Yes	3.22903806036444
+SBS18	Damage by reactive oxygen species	ROS	5_Acquired	0	0	0.51	5	No	3.22903806036444
+SBS19	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS19	Unknown	Unknown	13_Acquired	2.36090511873244	0.190787789858659	0.52	13	No	2.44714996329116
+SBS19	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS19	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS19	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS19	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS19	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS19	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS19	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS19	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS19	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS19	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS19	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS19	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS19	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS19	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	10_Acquired	0	0	0.77	10	No	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	13_Acquired	0	0	0.52	13	No	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	14_Acquired	4.25895426720177	0.0769466048461997	0.84	14	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	16_Acquired	0	0	0.78	16	No	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	17_Acquired	0	0	0.76	17	No	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	18_Acquired	0	0	0.7	18	No	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	19_Acquired	0	0	0.81	19	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	2_Acquired	0	0	0.81	2	No	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	20_Acquired	5.11673441809278	0.174674079237547	0.83	20	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	21_Acquired	1.91719625362813	0.0651790758211385	0.74	21	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	22_Acquired	0	0	0.41	22	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	23_Acquired	0	0	0.76	23	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	24_Acquired	0	0	0.8	24	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	25_Acquired	0	0	0.9	25	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	26_Acquired	0	0	0.9	26	Yes	3.23952593522407
+SBS20	Concurrent POLD1 mutations and defective DNA mismatch repair	MMRd	5_Acquired	0	0	0.51	5	No	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	10_Acquired	0	0	0.77	10	No	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	13_Acquired	0	0	0.52	13	No	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	14_Acquired	0	0	0.84	14	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	16_Acquired	0	0	0.78	16	No	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	17_Acquired	0	0	0.76	17	No	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	18_Acquired	0	0	0.7	18	No	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	19_Acquired	0	0	0.81	19	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	2_Acquired	0	0	0.81	2	No	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	20_Acquired	0	0	0.83	20	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	21_Acquired	0	0	0.74	21	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	22_Acquired	0	0	0.41	22	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	23_Acquired	0	0	0.76	23	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	24_Acquired	0	0	0.8	24	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	25_Acquired	0	0	0.9	25	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	26_Acquired	0	0	0.9	26	Yes	3.23952593522407
+SBS21	Defective DNA mismatch repair	MMRd	5_Acquired	0	0	0.51	5	No	3.23952593522407
+SBS22	Aristolochic acid exposure	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	13_Acquired	0	0	0.52	13	No	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	14_Acquired	3.80657215973926	0.0687734090148954	0.84	14	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	17_Acquired	0	0	0.76	17	No	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	18_Acquired	0	0	0.7	18	No	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	19_Acquired	0	0	0.81	19	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	2_Acquired	0	0	0.81	2	No	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	21_Acquired	0	0	0.74	21	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	22_Acquired	0	0	0.41	22	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	23_Acquired	4.15428956363722	0.11666721423998	0.76	23	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	24_Acquired	0	0	0.8	24	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	25_Acquired	0	0	0.9	25	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS22	Aristolochic acid exposure	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS23	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS23	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS23	Unknown	Unknown	14_Acquired	6.39853275722393	0.115602408661001	0.84	14	Yes	2.44714996329116
+SBS23	Unknown	Unknown	16_Acquired	3.19000105171897	0.19085890412075	0.78	16	No	2.44714996329116
+SBS23	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS23	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS23	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS23	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS23	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS23	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS23	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS23	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS23	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS23	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS23	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS23	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS24	Aflatoxin exposure	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	13_Acquired	1.73150062458147	0.13992480031563	0.52	13	No	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	14_Acquired	6.38963630199969	0.115441676241322	0.84	14	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	17_Acquired	0	0	0.76	17	No	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	18_Acquired	0	0	0.7	18	No	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	19_Acquired	0	0	0.81	19	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	2_Acquired	0	0	0.81	2	No	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	21_Acquired	0	0	0.74	21	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	22_Acquired	0	0	0.41	22	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	23_Acquired	0	0	0.76	23	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	24_Acquired	2.49366854322102	0.116919347394149	0.8	24	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	25_Acquired	0	0	0.9	25	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS24	Aflatoxin exposure	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	13_Acquired	0	0	0.52	13	No	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	14_Acquired	2.82195079461241	0.0509842367551708	0.84	14	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	17_Acquired	0	0	0.76	17	No	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	18_Acquired	0	0	0.7	18	No	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	19_Acquired	0	0	0.81	19	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	2_Acquired	0	0	0.81	2	No	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	21_Acquired	0	0	0.74	21	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	22_Acquired	0	0	0.41	22	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	23_Acquired	0	0	0.76	23	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	24_Acquired	0	0	0.8	24	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	25_Acquired	34.9066731651513	0.302517237497913	0.9	25	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS25	Chemotherapy treatment	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS26	Defective DNA mismatch repair	MMRd	10_Acquired	0	0	0.77	10	No	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	13_Acquired	0	0	0.52	13	No	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	14_Acquired	0	0	0.84	14	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	16_Acquired	0	0	0.78	16	No	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	17_Acquired	0	0	0.76	17	No	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	18_Acquired	0	0	0.7	18	No	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	19_Acquired	3.33296906919994	0.176680613904457	0.81	19	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	2_Acquired	0	0	0.81	2	No	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	20_Acquired	0	0	0.83	20	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	21_Acquired	0	0	0.74	21	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	22_Acquired	1.0018699936382	0.202728707224404	0.41	22	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	23_Acquired	7.10442347163918	0.19951745840547	0.76	23	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	24_Acquired	0	0	0.8	24	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	25_Acquired	0	0	0.9	25	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	26_Acquired	0	0	0.9	26	Yes	3.23952593522407
+SBS26	Defective DNA mismatch repair	MMRd	5_Acquired	0	0	0.51	5	No	3.23952593522407
+SBS28	Unknown	POLE	10_Acquired	0	0	0.77	10	No	0.194926159321888
+SBS28	Unknown	POLE	13_Acquired	0	0	0.52	13	No	0.194926159321888
+SBS28	Unknown	POLE	14_Acquired	0	0	0.84	14	Yes	0.194926159321888
+SBS28	Unknown	POLE	16_Acquired	0	0	0.78	16	No	0.194926159321888
+SBS28	Unknown	POLE	17_Acquired	0	0	0.76	17	No	0.194926159321888
+SBS28	Unknown	POLE	18_Acquired	1.49116312554284	0.0571689255887897	0.7	18	No	0.194926159321888
+SBS28	Unknown	POLE	19_Acquired	0	0	0.81	19	Yes	0.194926159321888
+SBS28	Unknown	POLE	2_Acquired	0	0	0.81	2	No	0.194926159321888
+SBS28	Unknown	POLE	20_Acquired	0	0	0.83	20	Yes	0.194926159321888
+SBS28	Unknown	POLE	21_Acquired	0	0	0.74	21	Yes	0.194926159321888
+SBS28	Unknown	POLE	22_Acquired	0	0	0.41	22	Yes	0.194926159321888
+SBS28	Unknown	POLE	23_Acquired	0	0	0.76	23	Yes	0.194926159321888
+SBS28	Unknown	POLE	24_Acquired	0	0	0.8	24	Yes	0.194926159321888
+SBS28	Unknown	POLE	25_Acquired	0	0	0.9	25	Yes	0.194926159321888
+SBS28	Unknown	POLE	26_Acquired	0	0	0.9	26	Yes	0.194926159321888
+SBS28	Unknown	POLE	5_Acquired	0	0	0.51	5	No	0.194926159321888
+SBS29	Tobacco chewing	Tobacco	10_Acquired	0	0	0.77	10	No	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	13_Acquired	0	0	0.52	13	No	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	14_Acquired	0	0	0.84	14	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	16_Acquired	0	0	0.78	16	No	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	17_Acquired	0	0	0.76	17	No	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	18_Acquired	0	0	0.7	18	No	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	19_Acquired	0	0	0.81	19	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	2_Acquired	0	0	0.81	2	No	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	20_Acquired	0	0	0.83	20	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	21_Acquired	0	0	0.74	21	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	22_Acquired	0	0	0.41	22	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	23_Acquired	0	0	0.76	23	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	24_Acquired	0	0	0.8	24	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	25_Acquired	0	0	0.9	25	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	26_Acquired	0	0	0.9	26	Yes	0.397708606007609
+SBS29	Tobacco chewing	Tobacco	5_Acquired	0.828442188823668	0.195275604550028	0.51	5	No	0.397708606007609
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	10_Acquired	0	0	0.77	10	No	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	13_Acquired	0	0	0.52	13	No	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	14_Acquired	6.50231313578215	0.117477410663536	0.84	14	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	16_Acquired	0	0	0.78	16	No	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	17_Acquired	0	0	0.76	17	No	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	18_Acquired	0	0	0.7	18	No	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	19_Acquired	0	0	0.81	19	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	2_Acquired	1.95596051336765	0.0512802594667469	0.81	2	No	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	20_Acquired	0	0	0.83	20	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	21_Acquired	0	0	0.74	21	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	22_Acquired	0	0	0.41	22	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	23_Acquired	0	0	0.76	23	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	24_Acquired	0	0	0.8	24	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	25_Acquired	0	0	0.9	25	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	26_Acquired	0	0	0.9	26	Yes	0.168757670130283
+SBS30	Defective DNA base excision repair due to NTHL1 mutations	DNA repair (not MMRd)	5_Acquired	0	0	0.51	5	No	0.168757670130283
+SBS31	Platinum chemotherapy treatment	Platinum	10_Acquired	1.6436199411779	0.258233187734464	0.77	10	No	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	13_Acquired	0	0	0.52	13	No	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	14_Acquired	0	0	0.84	14	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	16_Acquired	0	0	0.78	16	No	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	17_Acquired	0	0	0.76	17	No	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	18_Acquired	0	0	0.7	18	No	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	19_Acquired	0	0	0.81	19	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	2_Acquired	0	0	0.81	2	No	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	20_Acquired	0	0	0.83	20	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	21_Acquired	0	0	0.74	21	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	22_Acquired	0	0	0.41	22	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	23_Acquired	0	0	0.76	23	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	24_Acquired	0	0	0.8	24	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	25_Acquired	0	0	0.9	25	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	26_Acquired	0	0	0.9	26	Yes	0.572974963090093
+SBS31	Platinum chemotherapy treatment	Platinum	5_Acquired	0	0	0.51	5	No	0.572974963090093
+SBS32	Azathioprine treatment	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	13_Acquired	0	0	0.52	13	No	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	14_Acquired	0	0	0.84	14	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	17_Acquired	0	0	0.76	17	No	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	18_Acquired	2.73032967742688	0.104676685929219	0.7	18	No	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	19_Acquired	0	0	0.81	19	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	2_Acquired	2.67674264909228	0.0701773152540934	0.81	2	No	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	21_Acquired	0	0	0.74	21	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	22_Acquired	1.36694110578452	0.276600961189848	0.41	22	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	23_Acquired	0	0	0.76	23	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	24_Acquired	0	0	0.8	24	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	25_Acquired	0	0	0.9	25	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS32	Azathioprine treatment	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS33	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS33	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS33	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS33	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS33	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS33	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS33	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS33	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS33	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS33	Unknown	Unknown	21_Acquired	2.42841045592785	0.0825588663300551	0.74	21	Yes	2.44714996329116
+SBS33	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS33	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS33	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS33	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS33	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS33	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS34	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS34	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS34	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS34	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS34	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS34	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS34	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS34	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS34	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS34	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS34	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS34	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS34	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS34	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS34	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS34	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS35	Platinum chemotherapy treatment	Platinum	10_Acquired	0	0	0.77	10	No	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	13_Acquired	0	0	0.52	13	No	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	14_Acquired	4.07791499900377	0.0736757650677699	0.84	14	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	16_Acquired	0	0	0.78	16	No	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	17_Acquired	0	0	0.76	17	No	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	18_Acquired	0	0	0.7	18	No	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	19_Acquired	0	0	0.81	19	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	2_Acquired	9.19487541875424	0.241066010287859	0.81	2	No	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	20_Acquired	0	0	0.83	20	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	21_Acquired	0	0	0.74	21	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	22_Acquired	0	0	0.41	22	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	23_Acquired	0	0	0.76	23	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	24_Acquired	0	0	0.8	24	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	25_Acquired	0	0	0.9	25	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	26_Acquired	0	0	0.9	26	Yes	0.572974963090093
+SBS35	Platinum chemotherapy treatment	Platinum	5_Acquired	0	0	0.51	5	No	0.572974963090093
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	10_Acquired	0	0	0.77	10	No	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	13_Acquired	0	0	0.52	13	No	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	14_Acquired	0	0	0.84	14	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	16_Acquired	0	0	0.78	16	No	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	17_Acquired	0	0	0.76	17	No	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	18_Acquired	0	0	0.7	18	No	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	19_Acquired	0	0	0.81	19	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	2_Acquired	0	0	0.81	2	No	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	20_Acquired	0	0	0.83	20	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	21_Acquired	0	0	0.74	21	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	22_Acquired	0	0	0.41	22	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	23_Acquired	0	0	0.76	23	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	24_Acquired	0	0	0.8	24	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	25_Acquired	0	0	0.9	25	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	26_Acquired	0	0	0.9	26	Yes	0.168757670130283
+SBS36	Defective DNA base excision repair due to MUTYH mutations	DNA repair (not MMRd)	5_Acquired	0	0	0.51	5	No	0.168757670130283
+SBS37	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS37	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS37	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS37	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS37	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS37	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS37	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS37	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS37	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS37	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS37	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS37	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS37	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS37	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS37	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS37	Unknown	Unknown	5_Acquired	1.16036327997273	0.273514125730452	0.51	5	No	2.44714996329116
+SBS38	Indirect effect of ultraviolet light	UV	10_Acquired	0	0	0.77	10	No	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	13_Acquired	0	0	0.52	13	No	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	14_Acquired	0	0	0.84	14	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	16_Acquired	0	0	0.78	16	No	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	17_Acquired	0	0	0.76	17	No	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	18_Acquired	0	0	0.7	18	No	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	19_Acquired	1.77690255449848	0.0941935636542076	0.81	19	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	2_Acquired	0	0	0.81	2	No	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	20_Acquired	0	0	0.83	20	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	21_Acquired	0	0	0.74	21	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	22_Acquired	0	0	0.41	22	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	23_Acquired	0	0	0.76	23	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	24_Acquired	1.314124640665	0.0616146824319565	0.8	24	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	25_Acquired	0	0	0.9	25	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	26_Acquired	0	0	0.9	26	Yes	0.380496170448975
+SBS38	Indirect effect of ultraviolet light	UV	5_Acquired	0	0	0.51	5	No	0.380496170448975
+SBS39	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS39	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS39	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS39	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS39	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS39	Unknown	Unknown	18_Acquired	1.70155561767638	0.065235053647612	0.7	18	No	2.44714996329116
+SBS39	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS39	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS39	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS39	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS39	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS39	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS39	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS39	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS39	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS39	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS40	Unknown	Clock	10_Acquired	0	0	0.77	10	No	1.00830892241415
+SBS40	Unknown	Clock	13_Acquired	0	0	0.52	13	No	1.00830892241415
+SBS40	Unknown	Clock	14_Acquired	0	0	0.84	14	Yes	1.00830892241415
+SBS40	Unknown	Clock	16_Acquired	0	0	0.78	16	No	1.00830892241415
+SBS40	Unknown	Clock	17_Acquired	0	0	0.76	17	No	1.00830892241415
+SBS40	Unknown	Clock	18_Acquired	0	0	0.7	18	No	1.00830892241415
+SBS40	Unknown	Clock	19_Acquired	0	0	0.81	19	Yes	1.00830892241415
+SBS40	Unknown	Clock	2_Acquired	0	0	0.81	2	No	1.00830892241415
+SBS40	Unknown	Clock	20_Acquired	0	0	0.83	20	Yes	1.00830892241415
+SBS40	Unknown	Clock	21_Acquired	0	0	0.74	21	Yes	1.00830892241415
+SBS40	Unknown	Clock	22_Acquired	0	0	0.41	22	Yes	1.00830892241415
+SBS40	Unknown	Clock	23_Acquired	0	0	0.76	23	Yes	1.00830892241415
+SBS40	Unknown	Clock	24_Acquired	0	0	0.8	24	Yes	1.00830892241415
+SBS40	Unknown	Clock	25_Acquired	0	0	0.9	25	Yes	1.00830892241415
+SBS40	Unknown	Clock	26_Acquired	0	0	0.9	26	Yes	1.00830892241415
+SBS40	Unknown	Clock	5_Acquired	0	0	0.51	5	No	1.00830892241415
+SBS41	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS41	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS41	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS41	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS41	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS41	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS41	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS41	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS41	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS41	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS41	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS41	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS41	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS41	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS41	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS41	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS42	Haloalkane exposure	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	13_Acquired	0	0	0.52	13	No	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	14_Acquired	0	0	0.84	14	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	17_Acquired	0	0	0.76	17	No	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	18_Acquired	0	0	0.7	18	No	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	19_Acquired	0	0	0.81	19	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	2_Acquired	0	0	0.81	2	No	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	21_Acquired	0	0	0.74	21	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	22_Acquired	0	0	0.41	22	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	23_Acquired	11.6109783148173	0.326077533556551	0.76	23	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	24_Acquired	1.14629371124101	0.0537456804372246	0.8	24	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	25_Acquired	0	0	0.9	25	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS42	Haloalkane exposure	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS44	Defective DNA mismatch repair	MMRd	10_Acquired	0	0	0.77	10	No	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	13_Acquired	1.72928087640394	0.139745419600382	0.52	13	No	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	14_Acquired	0	0	0.84	14	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	16_Acquired	0	0	0.78	16	No	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	17_Acquired	0	0	0.76	17	No	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	18_Acquired	0	0	0.7	18	No	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	19_Acquired	0	0	0.81	19	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	2_Acquired	0	0	0.81	2	No	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	20_Acquired	0	0	0.83	20	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	21_Acquired	0	0	0.74	21	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	22_Acquired	0	0	0.41	22	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	23_Acquired	0	0	0.76	23	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	24_Acquired	0	0	0.8	24	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	25_Acquired	0	0	0.9	25	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	26_Acquired	0	0	0.9	26	Yes	3.23952593522407
+SBS44	Defective DNA mismatch repair	MMRd	5_Acquired	0	0	0.51	5	No	3.23952593522407
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	10_Acquired	0	0	0.77	10	No	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	13_Acquired	0	0	0.52	13	No	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	14_Acquired	0	0	0.84	14	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	16_Acquired	0	0	0.78	16	No	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	17_Acquired	0	0	0.76	17	No	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	18_Acquired	0	0	0.7	18	No	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	19_Acquired	0	0	0.81	19	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	2_Acquired	0	0	0.81	2	No	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	20_Acquired	0	0	0.83	20	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	21_Acquired	0	0	0.74	21	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	22_Acquired	0	0	0.41	22	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	23_Acquired	1.98985906284065	0.0558823139397484	0.76	23	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	24_Acquired	0	0	0.8	24	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	25_Acquired	0	0	0.9	25	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	26_Acquired	0	0	0.9	26	Yes	0.0558823139397484
+SBS84	Activity of activation-induced cytidine deaminase (AID)	AID	5_Acquired	0	0	0.51	5	No	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	10_Acquired	0	0	0.77	10	No	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	13_Acquired	0	0	0.52	13	No	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	14_Acquired	0	0	0.84	14	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	16_Acquired	0	0	0.78	16	No	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	17_Acquired	0	0	0.76	17	No	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	18_Acquired	0	0	0.7	18	No	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	19_Acquired	0	0	0.81	19	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	2_Acquired	0	0	0.81	2	No	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	20_Acquired	0	0	0.83	20	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	21_Acquired	0	0	0.74	21	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	22_Acquired	0	0	0.41	22	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	23_Acquired	0	0	0.76	23	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	24_Acquired	0	0	0.8	24	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	25_Acquired	0	0	0.9	25	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	26_Acquired	0	0	0.9	26	Yes	0.0558823139397484
+SBS85	Indirect effects of activation-induced cytidine deaminase (AID)	AID	5_Acquired	0	0	0.51	5	No	0.0558823139397484
+SBS86	Unknown chemotherapy treatment	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	13_Acquired	1.87577886848255	0.151584111424818	0.52	13	No	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	14_Acquired	0	0	0.84	14	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	17_Acquired	0	0	0.76	17	No	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	18_Acquired	0	0	0.7	18	No	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	19_Acquired	0	0	0.81	19	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	2_Acquired	0	0	0.81	2	No	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	21_Acquired	0	0	0.74	21	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	22_Acquired	0	0	0.41	22	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	23_Acquired	0	0	0.76	23	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	24_Acquired	1.21366448783465	0.0569044591988124	0.8	24	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	25_Acquired	0	0	0.9	25	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS86	Unknown chemotherapy treatment	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	13_Acquired	0	0	0.52	13	No	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	14_Acquired	0	0	0.84	14	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	17_Acquired	4.23632782613353	0.320929443581663	0.76	17	No	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	18_Acquired	2.0695758922505	0.0793443910714667	0.7	18	No	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	19_Acquired	4.02653206276353	0.213446372283859	0.81	19	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	2_Acquired	2.59880472460738	0.0681339831098242	0.81	2	No	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	21_Acquired	3.73053025336614	0.126827138211363	0.74	21	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	22_Acquired	0	0	0.41	22	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	23_Acquired	0	0	0.76	23	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	24_Acquired	0	0	0.8	24	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	25_Acquired	0	0	0.9	25	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS87	Thiopurine chemotherapy treatment	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	13_Acquired	0	0	0.52	13	No	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	14_Acquired	0	0	0.84	14	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	17_Acquired	0	0	0.76	17	No	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	18_Acquired	0	0	0.7	18	No	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	19_Acquired	0	0	0.81	19	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	2_Acquired	0	0	0.81	2	No	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	21_Acquired	0	0	0.74	21	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	22_Acquired	0	0	0.41	22	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	23_Acquired	0	0	0.76	23	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	24_Acquired	0	0	0.8	24	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	25_Acquired	0	0	0.9	25	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS88	Colibactin exposure (E.coli bacteria carrying pks pathogenicity island)	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS89	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS89	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS89	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS89	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS89	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS89	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS89	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS89	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS89	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS89	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS89	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS89	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS89	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS89	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS89	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS89	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS90	Duocarmycin exposure	Chemotherapy	10_Acquired	0	0	0.77	10	No	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	13_Acquired	0	0	0.52	13	No	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	14_Acquired	0	0	0.84	14	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	16_Acquired	0	0	0.78	16	No	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	17_Acquired	0	0	0.76	17	No	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	18_Acquired	0	0	0.7	18	No	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	19_Acquired	0	0	0.81	19	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	2_Acquired	0	0	0.81	2	No	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	20_Acquired	0	0	0.83	20	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	21_Acquired	0	0	0.74	21	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	22_Acquired	0	0	0.41	22	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	23_Acquired	0	0	0.76	23	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	24_Acquired	0	0	0.8	24	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	25_Acquired	0	0	0.9	25	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	26_Acquired	0	0	0.9	26	Yes	2.7596759967078
+SBS90	Duocarmycin exposure	Chemotherapy	5_Acquired	0	0	0.51	5	No	2.7596759967078
+SBS91	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS91	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS91	Unknown	Unknown	14_Acquired	1.83161974951074	0.0330919076026371	0.84	14	Yes	2.44714996329116
+SBS91	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS91	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS91	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS91	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS91	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS91	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS91	Unknown	Unknown	21_Acquired	2.51214355785008	0.0854055473563714	0.74	21	Yes	2.44714996329116
+SBS91	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS91	Unknown	Unknown	23_Acquired	1.25571187939741	0.0352648520554931	0.76	23	Yes	2.44714996329116
+SBS91	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS91	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS91	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS91	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS92	Tobacco smoking	Tobacco	10_Acquired	0	0	0.77	10	No	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	13_Acquired	0	0	0.52	13	No	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	14_Acquired	0	0	0.84	14	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	16_Acquired	0	0	0.78	16	No	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	17_Acquired	0	0	0.76	17	No	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	18_Acquired	0	0	0.7	18	No	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	19_Acquired	0	0	0.81	19	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	2_Acquired	0	0	0.81	2	No	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	20_Acquired	0	0	0.83	20	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	21_Acquired	0	0	0.74	21	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	22_Acquired	0	0	0.41	22	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	23_Acquired	0	0	0.76	23	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	24_Acquired	0	0	0.8	24	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	25_Acquired	0	0	0.9	25	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	26_Acquired	0	0	0.9	26	Yes	0.397708606007609
+SBS92	Tobacco smoking	Tobacco	5_Acquired	0	0	0.51	5	No	0.397708606007609
+SBS93	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS93	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS93	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS93	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS93	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS93	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS93	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS93	Unknown	Unknown	2_Acquired	3.53542417042732	0.0926897386452732	0.81	2	No	2.44714996329116
+SBS93	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS93	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS93	Unknown	Unknown	22_Acquired	0	0	0.41	22	Yes	2.44714996329116
+SBS93	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS93	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS93	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS93	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS93	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116
+SBS94	Unknown	Unknown	10_Acquired	0	0	0.77	10	No	2.44714996329116
+SBS94	Unknown	Unknown	13_Acquired	0	0	0.52	13	No	2.44714996329116
+SBS94	Unknown	Unknown	14_Acquired	0	0	0.84	14	Yes	2.44714996329116
+SBS94	Unknown	Unknown	16_Acquired	0	0	0.78	16	No	2.44714996329116
+SBS94	Unknown	Unknown	17_Acquired	0	0	0.76	17	No	2.44714996329116
+SBS94	Unknown	Unknown	18_Acquired	0	0	0.7	18	No	2.44714996329116
+SBS94	Unknown	Unknown	19_Acquired	0	0	0.81	19	Yes	2.44714996329116
+SBS94	Unknown	Unknown	2_Acquired	0	0	0.81	2	No	2.44714996329116
+SBS94	Unknown	Unknown	20_Acquired	0	0	0.83	20	Yes	2.44714996329116
+SBS94	Unknown	Unknown	21_Acquired	0	0	0.74	21	Yes	2.44714996329116
+SBS94	Unknown	Unknown	22_Acquired	2.57311354141866	0.520670331585748	0.41	22	Yes	2.44714996329116
+SBS94	Unknown	Unknown	23_Acquired	0	0	0.76	23	Yes	2.44714996329116
+SBS94	Unknown	Unknown	24_Acquired	0	0	0.8	24	Yes	2.44714996329116
+SBS94	Unknown	Unknown	25_Acquired	0	0	0.9	25	Yes	2.44714996329116
+SBS94	Unknown	Unknown	26_Acquired	0	0	0.9	26	Yes	2.44714996329116
+SBS94	Unknown	Unknown	5_Acquired	0	0	0.51	5	No	2.44714996329116

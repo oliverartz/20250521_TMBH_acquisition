@@ -16,7 +16,7 @@
 options(repos = "https://cran.rstudio.com")
 if (!require('pacman')) install.packages('pacman', dependencies = TRUE); library(pacman)
 
-p_load(tidyverse, data.table, MutationalPatterns, RColorBrewer)
+p_load(tidyverse, data.table, MutationalPatterns, RColorBrewer, ggpubr, ggsci)
 
 # set parameters ---------------------------------------------------------------
 project_root <- here::here()
@@ -170,7 +170,7 @@ etiology_colors <- c(
   "Unknown" = set3_colors[10],
   "UV" = set3_colors[11])
 
-# plot
+# bar plot
 p_bar <- df_plot %>%
   ggplot(aes(x = patient_id_ordered, y = rel_exposure, fill = category)) +
   geom_bar(stat = "identity", color = "black") +
@@ -192,6 +192,13 @@ p_bar <- df_plot %>%
     y = "Relative Exposure",
     fill = "Etiology") +
   facet_grid(~ acquired_tmbh, scales = "free_x", space = "free_x")
+
+# box plot
+df_plot <- signatures_df %>% 
+  group_by(category) %>% 
+  mutate(sum = sum(rel_exposure)) %>% 
+  ungroup() %>% 
+  filter(sum > 0)
 
 p_box <- df_plot %>% 
   ggplot(aes(x = acquired_tmbh, y = rel_exposure, fill = acquired_tmbh)) +
@@ -223,7 +230,6 @@ ggsave(
 
 # data
 df_plot %>% 
-  select(-patient_id_ordered) %>% 
   fwrite(
     paste0(project_folder, "/results/tables/013_sbs_acquired_per_patient.txt"), 
     sep = "\t"
