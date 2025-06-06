@@ -100,64 +100,84 @@ rtkras_fractions <- rtkras_fractions %>%
   left_join(patient_order %>% select(patient_id, patient_id_ordered), by = "patient_id")
 
 # plot -------------------------------------------------------------------------
-# tile plot (use ordered factor)
-p_tile <- pathway_counts_per_patient %>%
-  ggplot(aes(x = patient_id_ordered, y = pathway, fill = n_mutations)) +
-  geom_tile(color = "white", size = 0.5) +
-  geom_text(aes(label = n_mutations), color = "white", size = 3, fontface = "bold") +
-  theme_jco() +
-  theme(
-    panel.grid = element_blank(),
-    panel.border = element_rect(fill = NA, linewidth = 1),
-    panel.grid.major = element_line(color = "lightgrey"),
-    legend.position = "none",
-    axis.text.x = element_blank(),    # Remove x-axis text
-    axis.ticks.x = element_blank()    # Remove x-axis ticks
-  ) +
-  scale_fill_viridis_c(name = "# Mutations", trans = "sqrt", 
-                       option = "plasma", na.value = "grey95") +
-  labs(
-    x = NULL,
-    y = "Pathway"
-  ) +
-  facet_grid(~ acquired_tmbh, scales = "free_x", space = "free_x")
+create_pathway_plot <- function(color_scheme = "viridis") {
+  
+  # Define color schemes
+  if (color_scheme == "viridis") {
+    tile_fill <- scale_fill_viridis_c(name = "# Mutations", trans = "sqrt",
+                                      option = "plasma", na.value = "grey95")
+    rtkras_fill <- scale_fill_viridis_c(name = "RTK-RAS\nFraction",
+                                        option = "viridis", na.value = "grey95",
+                                        labels = scales::percent)
+    text_color <- "white"
+    tile_color <- "white"
+  } else if (color_scheme == "white_red") {
+    tile_fill <- scale_fill_gradient(low = "white", high = "red", name = "# Mutations", 
+                                     na.value = "grey95", trans = "sqrt")
+    rtkras_fill <- scale_fill_gradient(low = "white", high = "red", name = "RTK-RAS\nFraction", 
+                                       na.value = "grey95", labels = scales::percent)
+    text_color <- "black"
+    tile_color <- "black"
+  }
+  
+  # tile plot
+  p_tile <- pathway_counts_per_patient %>%
+    ggplot(aes(x = patient_id_ordered, y = pathway, fill = n_mutations)) +
+    geom_tile(color = tile_color, size = 0.5) +
+    geom_text(aes(label = n_mutations), color = text_color, size = 3, fontface = "bold") +
+    theme_jco() +
+    theme(
+      panel.grid = element_blank(),
+      panel.border = element_rect(fill = NA, linewidth = 1),
+      panel.grid.major = element_line(color = "lightgrey"),
+      legend.position = "none",
+      axis.text.x = element_blank(),
+      axis.ticks.x = element_blank()
+    ) +
+    tile_fill +
+    labs(x = NULL, y = "Pathway") +
+    facet_grid(~ acquired_tmbh, scales = "free_x", space = "free_x")
+  
+  # RTK-RAS fraction plot
+  p_rtkras <- rtkras_fractions %>%
+    ggplot(aes(x = patient_id_ordered, y = "RTK-RAS\nFraction", fill = rtkras_fraction)) +
+    geom_tile(color = tile_color, size = 0.5) +
+    geom_text(aes(label = rtkras_label), color = text_color, size = 3, fontface = "bold") +
+    theme_jco() +
+    theme(
+      panel.grid = element_blank(),
+      panel.border = element_rect(fill = NA, linewidth = 1),
+      legend.position = "none",
+      strip.text = element_blank(),
+      strip.background = element_blank(),
+      plot.margin = margin(0, 5.5, 5.5, 5.5, "pt")
+    ) +
+    rtkras_fill +
+    labs(x = "Patient ID", y = "") +
+    facet_grid(~ acquired_tmbh, scales = "free_x", space = "free_x")
+  
+  # combine plots
+  cowplot::plot_grid(p_tile, p_rtkras,
+                     nrow = 2,
+                     rel_heights = c(4.5, 1),
+                     align = "v",
+                     axis = "lr")
+}
 
-# RTK-RAS fraction tile plot (use ordered factor)
-p_rtkras <- rtkras_fractions %>%
-  ggplot(aes(x = patient_id_ordered, y = "RTK-RAS\nFraction", fill = rtkras_fraction)) +
-  geom_tile(color = "white", size = 0.5) +
-  geom_text(aes(label = rtkras_label), color = "white", size = 3, fontface = "bold") +
-  theme_jco() +
-  theme(
-    panel.grid = element_blank(),
-    panel.border = element_rect(fill = NA, linewidth = 1),
-    legend.position = "none",
-    strip.text = element_blank(),
-    strip.background = element_blank(),
-    plot.margin = margin(0, 5.5, 5.5, 5.5, "pt")
-  ) +
-  scale_fill_viridis_c(name = "RTK-RAS\nFraction", 
-                       option = "viridis", na.value = "grey95",
-                       labels = scales::percent) +
-  labs(
-    x = "Patient ID",
-    y = ""
-  ) +
-  facet_grid(~ acquired_tmbh, scales = "free_x", space = "free_x")
-
-# merge plots with tighter spacing
-p_combined <- cowplot::plot_grid(p_tile, p_rtkras,
-                                nrow = 2,
-                                rel_heights = c(4.5, 1),
-                                align = "v",
-                                axis = "lr")
-
-print(p_combined)
-
-# export -----------------------------------------------------------------------
-# plot
+# export plots -----------------------------------------------------------------
+# original viridis version
+p_viridis <- create_pathway_plot("viridis")
 ggsave(
-  plot = p_combined, filename = paste0(project_folder, "/results/figures/016_pathways_SanchezVega2018.pdf"), height = 6, width = 8)
+  plot = p_viridis, 
+  filename = paste0(project_folder, "/results/figures/016_pathways_SanchezVega2018.pdf"), 
+  height = 6, width = 8)
 
-# cleanup ----------------------------------------------------------------------
+# white-to-red version
+p_white_red <- create_pathway_plot("white_red")
+ggsave(
+  plot = p_white_red, 
+  filename = paste0(project_folder, "/results/figures/016_pathways_SanchezVega2018_white_red.pdf"), 
+  height = 6, width = 8)
+
+ # cleanup ----------------------------------------------------------------------
 rm()
