@@ -179,5 +179,26 @@ ggsave(
   filename = paste0(project_folder, "/results/figures/016_pathways_SanchezVega2018_white_red.pdf"), 
   height = 6, width = 8)
 
- # cleanup ----------------------------------------------------------------------
+# export data ------------------------------------------------------------------
+# pathway annotations for each mutation
+df_export <- acquired_mutations %>% 
+  select(patient_id,
+         acquired_tmbh,
+         variant_type,
+         indel_type,
+         gene,
+         chromosome,
+         position,
+         mut_aa,
+         mut_nt,
+         status_compared_to_baseline_impact,
+         pathway)
+
+df_export %>% 
+  fwrite(
+    paste0(project_folder, "/results/tables/016_pathways_SanchezVega2018.txt"), 
+    sep = "\t"
+  )
+
+ # cleanup ---------------------------------------------------------------------
 rm()
