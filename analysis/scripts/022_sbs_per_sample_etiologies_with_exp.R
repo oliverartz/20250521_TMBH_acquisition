@@ -40,6 +40,12 @@ signatures_without_exp <- signatures_df %>%
 sigs_filtered <- signatures_df %>% 
   filter(!category %in% signatures_without_exp)
 
+df_temp <- sigs_filtered %>% 
+  filter(rel_exposure > 0) %>% 
+  filter(category %in% c("UV", "APOBEC"))
+
+df_temp %>% filter(category == "UV") %>% pull(SBS_signature) %>% unique()
+
 # analysis ---------------------------------------------------------------------
 
 # plot -------------------------------------------------------------------------

@@ -67,6 +67,7 @@ df_plot %>%
              linetype = "dashed", alpha = 0.5) +
   geom_boxplot(outlier.shape = NA, alpha = 0.5) +
   geom_jitter(width = 0.2, height = 0, shape = 21, size = 3, alpha = 0.8) +
+  stat_compare_means(label = "p.format", label.y = max(df_plot$phbr) * 1.1) +
   theme_jco() +
   theme(panel.border = element_rect(color = "black", fill = NA),
         legend.position = "none",
