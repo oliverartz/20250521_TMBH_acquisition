@@ -15,8 +15,7 @@ This study investigates the acquisition of high tumor mutational burden (TMB-H) 
 │   ├── scripts/                     # Main analysis scripts
 │   │   ├── utils/                   # Utility functions
 │   │   └── 001-021 numbered scripts # Sequential analysis pipeline
-│   ├── results_to_onedrive.sh       # Upload results to shared drive
-│   └── publication/                 # Publication-specific analyses
+│   └── publication/                 # Scripts to extract specific stats for main text
 ├── data/
 │   ├── metadata/                    # Sample metadata and gene panels
 │   ├── processed/                   # Processed data files
