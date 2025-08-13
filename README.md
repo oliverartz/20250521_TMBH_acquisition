@@ -1,6 +1,6 @@
-# Acquired high tumor mutational burden following targeted therapy and activity of subsequent immune checkpoint blockade in microsatellite stable colorectal cancer
+# Acquired high tumor mutational burden and activity of immunotherapy after targeted therapy in microsatellite stable colorectal cancer
 
-This repository contains the code and analysis pipeline for the publication "Acquired high tumor mutational burden following targeted therapy and activity of subsequent immune checkpoint blockade in microsatellite stable colorectal cancer" by Yeh et al.
+This repository contains the code and analysis pipeline for the publication "Acquired high tumor mutational burden and activity of immunotherapy after targeted therapy in microsatellite stable colorectal cancer" by Yeh et al.
 
 ## Overview
 
@@ -23,15 +23,40 @@ This study investigates the acquisition of high tumor mutational burden (TMB-H) 
 └── results/
     ├── figures/                     # Generated figures
     └── tables/                      # Analysis results tables
+└── test_data/                       # Synthetic, schema‑compatible inputs for demo
 ```
 
+## Data availability and ethics
+- Patient‑level raw and processed clinical data contain PHI and cannot be distributed.
+- The repository ships with or supports synthetic “test_data” (no PHI) under `test_data/`.
+- Real data access is governed by institutional approvals and data‑use agreements.
 
 ## Running the Analysis
 
-### Prerequisites
-- R (≥4.0.0)
-- Required R packages: `tidyverse`, `data.table`, `MutationalPatterns`, `msigdbr`, `ggpubr`, `here`
-- Access to HPC cluster (lilac) for neoantigen prediction pipeline
+### Dependencies
+
+R packages (CRAN)
+- pacman, tidyverse, data.table, here, janitor, readxl
+- ggpubr, ggsci, RColorBrewer, viridis, msigdbr
+- Optional (HPC helpers/QC): vcfR, phylotools, DescTools
+
+Bioconductor
+- MutationalPatterns, BSgenome.Hsapiens.UCSC.hg19
+
+Install
+```r
+install.packages(c("pacman","tidyverse","data.table","here","janitor",
+                   "readxl","ggpubr","ggsci","RColorBrewer","viridis",
+                   "msigdbr","vcfR","phylotools","DescTools"))
+install.packages("BiocManager")
+BiocManager::install(c("MutationalPatterns","BSgenome.Hsapiens.UCSC.hg19"))
+```
+
+System/HPC tools (for neoantigen pipeline)
+- snpEff (GRCh37.75 database)
+- netMHCpan
+- LSF or equivalent scheduler, Java
+- Paths and submission scripts are in [analysis/hpc](analysis/hpc).
 
 ### Quick Start
 ```r
@@ -79,47 +104,6 @@ Run locally:
 ```bash
 bash analysis/hpc/sync_from_hpc.sh
 ```
-
-## Uploading Results
-
-### Automatic Upload
-Results are automatically uploaded to OneDrive as part of the main analysis pipeline. The upload occurs after all analyses are completed.
-
-### Manual Upload
-To manually upload results to the shared OneDrive folder:
-
-```bash
-# Make script executable (if needed)
-chmod +x analysis/results_to_onedrive.sh
-
-# Run upload script
-bash analysis/results_to_onedrive.sh
-```
-
-### From R
-You can also trigger the upload from within R:
-
-```r
-# Upload results to shared drive
-system(paste0(project_dir, "/analysis/results_to_onedrive.sh"))
-```
-
-### What Gets Uploaded
-The script uploads:
-- **Figures**: All PDF files from `results/figures/` → OneDrive figures folder
-- **Tables**: All TXT files from `results/tables/` → OneDrive tables folder
-
-The upload uses `rsync` to efficiently sync only changed files while preserving timestamps and showing progress.
-
-### OneDrive Location
-Results are synced to:
-```
-OneDrive/Documents/4_projects/20241016_TKI_TMB_increase/20250521_TMBH_acquisition/results/
-├── figures/    # All generated PDF plots
-└── tables/     # All analysis result tables
-```
-
-Based on the script files, here's a comprehensive list of each script with its output plot and the specific samples used:
 
 ## Script-by-Script Analysis Summary
 
@@ -251,3 +235,6 @@ Based on the script files, here's a comprehensive list of each script with its o
   - **Plasma TMB**: Guardant360 baseline and progression samples
 - **Analysis**: TMB concordance between tissue and liquid biopsy platforms
 - **Faceting**: By TMB-H acquisition status
+
+## Contact
+Questions: artzo@mskcc.org
